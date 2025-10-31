@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/rakesh/practice/install/champ_msgs/include/**",
+        "/home/rakesh/practice/install/champ/include/**",
+        "/opt/ros/jazzy/include/**",
+        "/home/rakesh/practice/src/unitree_go2_ros2/champ/include/**",
+        "/home/rakesh/practice/src/unitree_go2_ros2/champ_base/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

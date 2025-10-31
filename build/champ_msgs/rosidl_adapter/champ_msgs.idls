@@ -1,0 +1,9 @@
+/home/rakesh/practice/build/champ_msgs/rosidl_adapter/champ_msgs:msg/Velocities.idl
+/home/rakesh/practice/build/champ_msgs/rosidl_adapter/champ_msgs:msg/PID.idl
+/home/rakesh/practice/build/champ_msgs/rosidl_adapter/champ_msgs:msg/Imu.idl
+/home/rakesh/practice/build/champ_msgs/rosidl_adapter/champ_msgs:msg/Point.idl
+/home/rakesh/practice/build/champ_msgs/rosidl_adapter/champ_msgs:msg/PointArray.idl
+/home/rakesh/practice/build/champ_msgs/rosidl_adapter/champ_msgs:msg/Joints.idl
+/home/rakesh/practice/build/champ_msgs/rosidl_adapter/champ_msgs:msg/Contacts.idl
+/home/rakesh/practice/build/champ_msgs/rosidl_adapter/champ_msgs:msg/ContactsStamped.idl
+/home/rakesh/practice/build/champ_msgs/rosidl_adapter/champ_msgs:msg/Pose.idl
