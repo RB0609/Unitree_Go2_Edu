@@ -2,6 +2,9 @@
 
 <img width="1836" height="1009" alt="image" src="https://github.com/user-attachments/assets/07fe9044-4535-41b2-a32a-765d9663602b" />
 
+## Watch this below video for Navigation
+
+https://github.com/user-attachments/assets/4b23e7d9-05f6-4085-8a9f-3eeae7db333f
 
 ## Features
 - Robot simulation in a indoor environment in Gazebo Harmonic
@@ -61,20 +64,19 @@ in Terminal1:(First launch this file)
 ```bash
 ros2 launch nav2_bringup rviz_launch.py 
 ```
-Here careful with file location<br>
+For below code, careful with file location<br>
 map:=<path_to_file_location>/map.yaml<br>
-and<br>
 params_file:=<path_to_file_location>/go2_params.yaml<br>
-below is the example usage
+below is the example usage<br>
 in Terminal2:
 ```bash
 ros2 launch nav2_bringup bringup_launch.py   use_sim_time:=true   map:=/home/rakesh/map.yaml   params_file:=/home/rakesh/practice/src/unitree_go2_ros2/unitree_go2_sim/scripts/go2_params.yaml
 ```
 ## Improvements
-1. Working on ekf node
-   (a) Fine-tuning the parameters for better result
-   (b) Focusing on robot's state estimation 
-1. Currently focusing on improvement of robot's gait
+1. Working on ekf node<br>
+   (a) Fine-tuning the parameters for better result<br>
+   (b) Focusing on robot's state estimation <br>
+1. Currently focusing on improvement of robot's gait<br>
 2. Planning to perform Sim2Real with Unitree go2 Edu
 ## References
    
