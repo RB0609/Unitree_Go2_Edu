@@ -26,22 +26,57 @@ sudo apt install ros-jazzy-velodyne-description
 ```
 2. Clone the Go2 Simulation package
 ```bash
-cd ~/folder_ws/src
-git clone https://github.com/<you>/<repo>.git
+cd ~/practice/src
+git clone https://github.com/RB0609/Practice_thesis.git
 ```
 3. Install the Dependencies
 ```bash
-cd ~/folder_ws
+cd ~/practice
 rosdep update
 rosdep install --from-paths src --ignore-src -r -y
 ```
 4. Build the workspace
 ```bash
-cd ~/folder_ws
+cd ~/practice
 colcon build
 source install/setup.bash
 ```
-5. References
+5. Steps to launch the simulation file in Gazebo Harmonic and Rviz
+Gazebo Harmonic Simulation:
+```bash
+ ros2 launch unitree_go2_sim unitree_go2_launch.py 
+```
+## Steps to Perform Navigation 
+1. Follow these before Performing the navigation
+In go2_params.yaml file which is in scripts folder under unitree_go2_sim
+```bash
+map_server:
+  ros__parameters:
+    use_sim_time: true
+    yaml_filename: "<path_to_file location>/map.yaml" #Here choose your own folder, where you store "map.yaml" file
+    #topic_name: "map"
+    #frame_id: "map"
+```
+in Terminal1:(First launch this file)
+```bash
+ros2 launch nav2_bringup rviz_launch.py 
+```
+Here careful with file location<br>
+map:=<path_to_file_location>/map.yaml<br>
+and<br>
+params_file:=<path_to_file_location>/go2_params.yaml<br>
+below is the example usage
+in Terminal2:
+```bash
+ros2 launch nav2_bringup bringup_launch.py   use_sim_time:=true   map:=/home/rakesh/map.yaml   params_file:=/home/rakesh/practice/src/unitree_go2_ros2/unitree_go2_sim/scripts/go2_params.yaml
+```
+## Improvements
+1. Working on ekf node
+   (a) Fine-tuning the parameters for better result
+   (b) Focusing on robot's state estimation 
+1. Currently focusing on improvement of robot's gait
+2. Planning to perform Sim2Real with Unitree go2 Edu
+## References
    
 For reference I used this github repo, unitree go2 edu simulation in Gazebo and Harmonic.
 ```bash
