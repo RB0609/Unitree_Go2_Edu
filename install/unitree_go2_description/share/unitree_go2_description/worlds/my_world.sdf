@@ -1,0 +1,192 @@
+<?xml version="1.0" ?>
+<sdf version="1.8">
+  <world name="indoor_world">
+    <!-- Physics -->
+    <physics name="1ms" type="bullet-featherstone">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+    </physics>
+
+    <!--PLugins-->
+    <plugin
+      filename="gz-sim-physics-system"
+      name="gz::sim::systems::Physics">
+    </plugin>
+    <plugin
+      filename="gz-sim-sensors-system"
+      name="gz::sim::systems::Sensors">
+      <render_engine>ogre2</render_engine>
+    </plugin>
+    <plugin
+      filename="gz-sim-user-commands-system"
+      name="gz::sim::systems::UserCommands">
+    </plugin>
+    <plugin
+      filename="gz-sim-scene-broadcaster-system"
+      name="gz::sim::systems::SceneBroadcaster">
+    </plugin>
+    
+
+
+    
+
+    <!-- Lighting -->
+    <light type="directional" name="sun">
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+    
+
+    <!-- A static indoor shell with floor + walls: two rooms and a hallway -->
+    <model name="indoor_shell" static="true">
+      <pose>0 0 0 0 0 0</pose>
+
+      <!-- Floor: 20m x 12m slab -->
+      <link name="floor">
+        <pose>0 0 0 0 0 0</pose>
+        <collision name="floor_col">
+          <geometry>
+            <box><size>20 12 0.2</size></box>
+          </geometry>
+        </collision>
+        <visual name="floor_vis">
+          <geometry>
+            <box><size>20 12 0.2</size></box>
+          </geometry>
+          <material>
+            <ambient>0.8 0.8 0.8 1</ambient>
+          </material>
+        </visual>
+      </link>
+
+      <!-- Perimeter walls: height 2.8m, thickness 0.2m -->
+      <!-- North wall -->
+      <link name="wall_north">
+        <pose>0 6 1.4 0 0 0</pose>
+        <collision name="col">
+          <geometry><box><size>20 0.2 2.8</size></box></geometry>
+        </collision>
+        <visual name="vis">
+          <geometry><box><size>20 0.2 2.8</size></box></geometry>
+        </visual>
+      </link>
+      <!-- South wall -->
+      <link name="wall_south">
+        <pose>0 -6 1.4 0 0 0</pose>
+        <collision name="col">
+          <geometry><box><size>20 0.2 2.8</size></box></geometry>
+        </collision>
+        <visual name="vis">
+          <geometry><box><size>20 0.2 2.8</size></box></geometry>
+        </visual>
+      </link>
+      <!-- East wall -->
+      <link name="wall_east">
+        <pose>10 0 1.4 0 0 0</pose>
+        <collision name="col">
+          <geometry><box><size>0.2 12 2.8</size></box></geometry>
+        </collision>
+        <visual name="vis">
+          <geometry><box><size>0.2 12 2.8</size></box></geometry>
+        </visual>
+      </link>
+      <!-- West wall -->
+      <link name="wall_west">
+        <pose>-10 0 1.4 0 0 0</pose>
+        <collision name="col">
+          <geometry><box><size>0.2 12 2.8</size></box></geometry>
+        </collision>
+        <visual name="vis">
+          <geometry><box><size>0.2 12 2.8</size></box></geometry>
+        </visual>
+      </link>
+
+      <!-- Interior partition walls to form two rooms (left/right) and a central hall -->
+      <!-- Central north-south wall -->
+      <link name="wall_center_ns">
+        <pose>0 0 1.4 0 0 0</pose>
+        <collision name="col">
+          <geometry><box><size>0.2 12 2.8</size></box></geometry>
+        </collision>
+        <visual name="vis">
+          <geometry><box><size>0.2 12 2.8</size></box></geometry>
+        </visual>
+      </link>
+
+      <!-- Door openings: subtract by leaving gaps (create two short wall segments) -->
+      <!-- West room north segment -->
+      <link name="wall_west_room_n">
+        <pose>-5 3 1.4 0 0 0</pose>
+        <collision name="col">
+          <geometry><box><size>10 0.2 2.8</size></box></geometry>
+        </collision>
+        <visual name="vis">
+          <geometry><box><size>10 0.2 2.8</size></box></geometry>
+        </visual>
+      </link>
+
+      <!-- West room south segment (leaves a doorway gap near y≈0) -->
+      <link name="wall_west_room_s">
+        <pose>-5 -3 1.4 0 0 0</pose>
+        <collision name="col">
+          <geometry><box><size>10 0.2 2.8</size></box></geometry>
+        </collision>
+        <visual name="vis">
+          <geometry><box><size>10 0.2 2.8</size></box></geometry>
+        </visual>
+      </link>
+
+      <!-- Short cross walls to shape a hallway near the center -->
+      <link name="wall_hall_w">
+        <pose>-2 0 1.4 0 0 1.5708</pose>
+        <collision name="col">
+          <geometry><box><size>0.2 4 2.8</size></box></geometry>
+        </collision>
+        <visual name="vis">
+          <geometry><box><size>0.2 4 2.8</size></box></geometry>
+        </visual>
+      </link>
+      <link name="wall_hall_e">
+        <pose> 2 0 1.4 0 0 1.5708</pose>
+        <collision name="col">
+          <geometry><box><size>0.2 4 2.8</size></box></geometry>
+        </collision>
+        <visual name="vis">
+          <geometry><box><size>0.2 4 2.8</size></box></geometry>
+        </visual>
+      </link>
+
+      <!-- Ceiling (optional; comment out if you prefer open top) -->
+      <!--
+      <link name="ceiling">
+        <pose>0 0 2.8 0 0 0</pose>
+        <collision name="col">
+          <geometry><box><size>20 12 0.2</size></box></geometry>
+        </collision>
+        <visual name="vis">
+          <geometry><box><size>20 12 0.2</size></box></geometry>
+        </visual>
+      </link>
+      -->
+    </model>
+
+    <!-- GUI plugin to allow spawning/editing at runtime -->
+    <plugin name="gz-gui" filename="gz-gui-system">
+      <gz-gui>
+        <plugin filename="WorldControl"/>
+        <plugin filename="EntityTree"/>
+        <plugin filename="TransformControl"/>
+        <plugin filename="Spawn"/>
+      </gz-gui>
+    </plugin>
+  </world>
+</sdf>

@@ -1,6 +1,6 @@
 footprint_to_odom_ekf:
   ros__parameters:
-    frequency: 50.0
+    frequency: 20.0  #original was 50.0
     publish_tf: true
     transform_timeout: 0.01
     # transform_time_offset: 0.05
@@ -16,7 +16,7 @@ footprint_to_odom_ekf:
     odom0: odom/raw
     odom0_config: [false, false, false,
                   false, false, false,
-                    true,  true, false,
+                    true,  false, false, #set vy to false; before it was true (true, true,false)
                   false, false, true,
                   false, false, false]
 
@@ -25,8 +25,8 @@ footprint_to_odom_ekf:
                   false, false, true,
                   false, false, false,
                   false, false,  true,
-                  false, false, false]
-
+                  false, false, false]   
+    map_frame: map
     odom_frame: odom
     base_link_frame: base_footprint
     world_frame: odom

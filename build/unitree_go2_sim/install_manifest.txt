@@ -4,6 +4,9 @@
 /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/config/gait/gait.yaml
 /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/config/ros_control/ros_control.yaml
 /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/rviz/rviz.rviz
+/home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/scripts/go2_params.yaml
+/home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/scripts/gazebo_bridge.yaml
+/home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/scripts/go2_slam_params.yaml
 /home/rakesh/practice/install/unitree_go2_sim/share/ament_index/resource_index/package_run_dependencies/unitree_go2_sim
 /home/rakesh/practice/install/unitree_go2_sim/share/ament_index/resource_index/parent_prefix_path/unitree_go2_sim
 /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/environment/ament_prefix_path.sh

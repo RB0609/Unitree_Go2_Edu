@@ -1,6 +1,6 @@
 base_to_footprint_ekf:
   ros__parameters:
-    frequency: 50.0
+    frequency: 20.0  #original was 50.0
     publish_tf: true
     transform_timeout: 0.01
     transform_time_offset: 0.045
@@ -30,6 +30,6 @@ base_to_footprint_ekf:
                   true, true, true,    # Use orientation (roll, pitch, yaw)
                   false, false, false,
                   true, true, true,    # Use angular velocity (vroll, vpitch, vyaw)
-                  true, true, true]    # Use linear acceleration (ax, ay, az)
+                  false, false, false]    # Use linear acceleration (ax, ay, az); prevoiusly it was all true
     odom_frame: base_footprint
     world_frame: base_footprint

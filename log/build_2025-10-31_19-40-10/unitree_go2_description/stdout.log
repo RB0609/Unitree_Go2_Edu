@@ -1,0 +1,43 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/rakesh/practice/build/unitree_go2_description
+-- Install configuration: ""
+-- Up-to-date: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/worlds
+-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/worlds/default.sdf
+-- Up-to-date: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/meshes
+-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/meshes/trunk.dae
+-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/meshes/foot.dae
+-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/meshes/L1_4D_Lidar.dae
+-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/meshes/thigh_mirror.dae
+-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/meshes/VLP16_base_1.dae
+-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/meshes/hip.dae
+-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/meshes/calf.dae
+-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/meshes/calf_mirror.dae
+-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/meshes/hokuyo.dae
+-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/meshes/thigh.dae
+-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/meshes/VLP16_base_2.dae
+-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/meshes/VLP16_scan.dae
+-- Up-to-date: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/urdf
+-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/urdf/materials.xacro
+-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/urdf/const.xacro
+-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/urdf/unitree_go2_robot.xacro
+-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/urdf/unitree_go2_gazebo.xacro
+-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/urdf/velodyne.xacro
+-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/urdf/leg.xacro
+-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/urdf/lidar_4D_lidar.xacro
+-- Up-to-date: /home/rakesh/practice/install/unitree_go2_description/share/ament_index/resource_index/package_run_dependencies/unitree_go2_description
+-- Up-to-date: /home/rakesh/practice/install/unitree_go2_description/share/ament_index/resource_index/parent_prefix_path/unitree_go2_description
+-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/environment/ament_prefix_path.sh
+-- Up-to-date: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/environment/ament_prefix_path.dsv
+-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/environment/path.sh
+-- Up-to-date: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/environment/path.dsv
+-- Up-to-date: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/local_setup.bash
+-- Up-to-date: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/local_setup.sh
+-- Up-to-date: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/local_setup.zsh
+-- Up-to-date: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/local_setup.dsv
+-- Up-to-date: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/package.dsv
+-- Up-to-date: /home/rakesh/practice/install/unitree_go2_description/share/ament_index/resource_index/packages/unitree_go2_description
+-- Up-to-date: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/cmake/unitree_go2_descriptionConfig.cmake
+-- Up-to-date: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/cmake/unitree_go2_descriptionConfig-version.cmake
+-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/package.xml

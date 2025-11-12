@@ -1,0 +1,1056 @@
+[0.000000] (-) TimerEvent: {}
+[0.000738] (champ) JobQueued: {'identifier': 'champ', 'dependencies': OrderedDict()}
+[0.000796] (champ_msgs) JobQueued: {'identifier': 'champ_msgs', 'dependencies': OrderedDict()}
+[0.000825] (unitree_go2_description) JobQueued: {'identifier': 'unitree_go2_description', 'dependencies': OrderedDict()}
+[0.000848] (unitree_go2_sim) JobQueued: {'identifier': 'unitree_go2_sim', 'dependencies': OrderedDict()}
+[0.000869] (champ_base) JobQueued: {'identifier': 'champ_base', 'dependencies': OrderedDict({'champ': '/home/rakesh/practice/install/champ', 'champ_msgs': '/home/rakesh/practice/install/champ_msgs'})}
+[0.000899] (champ) JobStarted: {'identifier': 'champ'}
+[0.010748] (champ_msgs) JobStarted: {'identifier': 'champ_msgs'}
+[0.015159] (unitree_go2_description) JobStarted: {'identifier': 'unitree_go2_description'}
+[0.019517] (unitree_go2_sim) JobStarted: {'identifier': 'unitree_go2_sim'}
+[0.025015] (champ) JobProgress: {'identifier': 'champ', 'progress': 'cmake'}
+[0.026334] (champ) JobProgress: {'identifier': 'champ', 'progress': 'build'}
+[0.026440] (champ) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rakesh/practice/build/champ', '--', '-j12', '-l12'], 'cwd': '/home/rakesh/practice/build/champ', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': ':/home/rakesh/opt/ros/jazzy/share/gz_ros2_control:/opt/ros/jazzy/share', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2866-1-rakesh-HP-Pavilion-Laptop-15-eh1xxx_TIME1526627', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share::/path/to/your/textures', 'USER': 'rakesh', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/opt/ros/jazzy/lib:/opt/unitree_robotics/lib:', 'HOME': '/home/rakesh', 'OLDPWD': '/home/rakesh', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2463', 'SYSTEMD_EXEC_PID': '2866', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5474', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rakesh', 'JOURNAL_STREAM': '9:21432', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rakesh', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share/:/home/rakesh/go2_ws/src/go2_description:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/opt/unitree_robotics/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rakesh-HP-Pavilion-Laptop-15-eh1xxx:@/tmp/.ICE-unix/2835,unix/rakesh-HP-Pavilion-Laptop-15-eh1xxx:/tmp/.ICE-unix/2835', 'INVOCATION_ID': '50a274fed75a49a58ce72a718269f8a6', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:', 'SHELL': '/bin/bash', 'IGN_GAZEBO_SYSTEM_PLUGIN_PATH': ':/home/rakesh/home/rakesh/gazebo_ros2_control', 'TERMINATOR_UUID': 'urn:uuid:b1152892-9a8f-4f3f-a9cb-c2619976cdbe', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rakesh/practice/build/champ', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/home/rakesh/home/rakesh/unitree_ros2/lib:/home/rakesh/home/rakesh/unitree_ros2/lib:/opt/ros/jazzy/lib:', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/rakesh/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'GZ_SIM_PHYSICS_ENGINE_PATH': '/usr/lib/x86_64-linux-gnu/gz-physics-6/engine-plugins', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy:'}), 'shell': False}
+[0.029187] (champ_msgs) JobProgress: {'identifier': 'champ_msgs', 'progress': 'cmake'}
+[0.030127] (champ_msgs) JobProgress: {'identifier': 'champ_msgs', 'progress': 'build'}
+[0.030585] (champ_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rakesh/practice/build/champ_msgs', '--', '-j12', '-l12'], 'cwd': '/home/rakesh/practice/build/champ_msgs', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': ':/home/rakesh/opt/ros/jazzy/share/gz_ros2_control:/opt/ros/jazzy/share', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2866-1-rakesh-HP-Pavilion-Laptop-15-eh1xxx_TIME1526627', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share::/path/to/your/textures', 'USER': 'rakesh', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/opt/ros/jazzy/lib:/opt/unitree_robotics/lib:', 'HOME': '/home/rakesh', 'OLDPWD': '/home/rakesh', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2463', 'SYSTEMD_EXEC_PID': '2866', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5474', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rakesh', 'JOURNAL_STREAM': '9:21432', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rakesh', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share/:/home/rakesh/go2_ws/src/go2_description:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/opt/unitree_robotics/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rakesh-HP-Pavilion-Laptop-15-eh1xxx:@/tmp/.ICE-unix/2835,unix/rakesh-HP-Pavilion-Laptop-15-eh1xxx:/tmp/.ICE-unix/2835', 'INVOCATION_ID': '50a274fed75a49a58ce72a718269f8a6', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:', 'SHELL': '/bin/bash', 'IGN_GAZEBO_SYSTEM_PLUGIN_PATH': ':/home/rakesh/home/rakesh/gazebo_ros2_control', 'TERMINATOR_UUID': 'urn:uuid:b1152892-9a8f-4f3f-a9cb-c2619976cdbe', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rakesh/practice/build/champ_msgs', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/home/rakesh/home/rakesh/unitree_ros2/lib:/home/rakesh/home/rakesh/unitree_ros2/lib:/opt/ros/jazzy/lib:', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/rakesh/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'GZ_SIM_PHYSICS_ENGINE_PATH': '/usr/lib/x86_64-linux-gnu/gz-physics-6/engine-plugins', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy:'}), 'shell': False}
+[0.032045] (unitree_go2_description) JobProgress: {'identifier': 'unitree_go2_description', 'progress': 'cmake'}
+[0.032433] (unitree_go2_description) JobProgress: {'identifier': 'unitree_go2_description', 'progress': 'build'}
+[0.032931] (unitree_go2_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rakesh/practice/build/unitree_go2_description', '--', '-j12', '-l12'], 'cwd': '/home/rakesh/practice/build/unitree_go2_description', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': ':/home/rakesh/opt/ros/jazzy/share/gz_ros2_control:/opt/ros/jazzy/share', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2866-1-rakesh-HP-Pavilion-Laptop-15-eh1xxx_TIME1526627', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share::/path/to/your/textures', 'USER': 'rakesh', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/opt/ros/jazzy/lib:/opt/unitree_robotics/lib:', 'HOME': '/home/rakesh', 'OLDPWD': '/home/rakesh', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2463', 'SYSTEMD_EXEC_PID': '2866', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5474', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rakesh', 'JOURNAL_STREAM': '9:21432', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rakesh', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share/:/home/rakesh/go2_ws/src/go2_description:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/opt/unitree_robotics/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rakesh-HP-Pavilion-Laptop-15-eh1xxx:@/tmp/.ICE-unix/2835,unix/rakesh-HP-Pavilion-Laptop-15-eh1xxx:/tmp/.ICE-unix/2835', 'INVOCATION_ID': '50a274fed75a49a58ce72a718269f8a6', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:', 'SHELL': '/bin/bash', 'IGN_GAZEBO_SYSTEM_PLUGIN_PATH': ':/home/rakesh/home/rakesh/gazebo_ros2_control', 'TERMINATOR_UUID': 'urn:uuid:b1152892-9a8f-4f3f-a9cb-c2619976cdbe', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rakesh/practice/build/unitree_go2_description', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/home/rakesh/home/rakesh/unitree_ros2/lib:/home/rakesh/home/rakesh/unitree_ros2/lib:/opt/ros/jazzy/lib:', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/rakesh/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'GZ_SIM_PHYSICS_ENGINE_PATH': '/usr/lib/x86_64-linux-gnu/gz-physics-6/engine-plugins', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy:'}), 'shell': False}
+[0.036893] (unitree_go2_sim) JobProgress: {'identifier': 'unitree_go2_sim', 'progress': 'cmake'}
+[0.037632] (unitree_go2_sim) JobProgress: {'identifier': 'unitree_go2_sim', 'progress': 'build'}
+[0.037796] (unitree_go2_sim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rakesh/practice/build/unitree_go2_sim', '--', '-j12', '-l12'], 'cwd': '/home/rakesh/practice/build/unitree_go2_sim', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': ':/home/rakesh/opt/ros/jazzy/share/gz_ros2_control:/opt/ros/jazzy/share', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2866-1-rakesh-HP-Pavilion-Laptop-15-eh1xxx_TIME1526627', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share::/path/to/your/textures', 'USER': 'rakesh', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/opt/ros/jazzy/lib:/opt/unitree_robotics/lib:', 'HOME': '/home/rakesh', 'OLDPWD': '/home/rakesh', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2463', 'SYSTEMD_EXEC_PID': '2866', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5474', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rakesh', 'JOURNAL_STREAM': '9:21432', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rakesh', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share/:/home/rakesh/go2_ws/src/go2_description:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/opt/unitree_robotics/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rakesh-HP-Pavilion-Laptop-15-eh1xxx:@/tmp/.ICE-unix/2835,unix/rakesh-HP-Pavilion-Laptop-15-eh1xxx:/tmp/.ICE-unix/2835', 'INVOCATION_ID': '50a274fed75a49a58ce72a718269f8a6', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:', 'SHELL': '/bin/bash', 'IGN_GAZEBO_SYSTEM_PLUGIN_PATH': ':/home/rakesh/home/rakesh/gazebo_ros2_control', 'TERMINATOR_UUID': 'urn:uuid:b1152892-9a8f-4f3f-a9cb-c2619976cdbe', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rakesh/practice/build/unitree_go2_sim', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/home/rakesh/home/rakesh/unitree_ros2/lib:/home/rakesh/home/rakesh/unitree_ros2/lib:/opt/ros/jazzy/lib:', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/rakesh/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'GZ_SIM_PHYSICS_ENGINE_PATH': '/usr/lib/x86_64-linux-gnu/gz-physics-6/engine-plugins', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy:'}), 'shell': False}
+[0.099637] (-) TimerEvent: {}
+[0.111494] (unitree_go2_sim) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.111807] (champ_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.112005] (unitree_go2_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.113333] (champ) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.144088] (champ_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.199775] (-) TimerEvent: {}
+[0.251607] (champ_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.256814] (champ_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.299921] (-) TimerEvent: {}
+[0.312887] (champ_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.355001] (champ_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.358594] (champ_msgs) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.361078] (champ) StdoutLine: {'line': b'-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.393362] (champ) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.394262] (champ_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.400016] (-) TimerEvent: {}
+[0.403291] (champ) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.415672] (champ) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.430461] (champ) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.471797] (unitree_go2_sim) StdoutLine: {'line': b'-- Configuring done (0.4s)\n'}
+[0.479222] (unitree_go2_sim) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.480645] (unitree_go2_description) StdoutLine: {'line': b'-- Configuring done (0.4s)\n'}
+[0.481816] (unitree_go2_sim) StdoutLine: {'line': b'-- Build files have been written to: /home/rakesh/practice/build/unitree_go2_sim\n'}
+[0.486455] (unitree_go2_description) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.489160] (unitree_go2_description) StdoutLine: {'line': b'-- Build files have been written to: /home/rakesh/practice/build/unitree_go2_description\n'}
+[0.500143] (-) TimerEvent: {}
+[0.512373] (champ) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.514686] (unitree_go2_sim) CommandEnded: {'returncode': 0}
+[0.515193] (champ) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.515750] (unitree_go2_sim) JobProgress: {'identifier': 'unitree_go2_sim', 'progress': 'install'}
+[0.529586] (unitree_go2_sim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rakesh/practice/build/unitree_go2_sim'], 'cwd': '/home/rakesh/practice/build/unitree_go2_sim', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': ':/home/rakesh/opt/ros/jazzy/share/gz_ros2_control:/opt/ros/jazzy/share', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2866-1-rakesh-HP-Pavilion-Laptop-15-eh1xxx_TIME1526627', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share::/path/to/your/textures', 'USER': 'rakesh', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/opt/ros/jazzy/lib:/opt/unitree_robotics/lib:', 'HOME': '/home/rakesh', 'OLDPWD': '/home/rakesh', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2463', 'SYSTEMD_EXEC_PID': '2866', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5474', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rakesh', 'JOURNAL_STREAM': '9:21432', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rakesh', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share/:/home/rakesh/go2_ws/src/go2_description:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/opt/unitree_robotics/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rakesh-HP-Pavilion-Laptop-15-eh1xxx:@/tmp/.ICE-unix/2835,unix/rakesh-HP-Pavilion-Laptop-15-eh1xxx:/tmp/.ICE-unix/2835', 'INVOCATION_ID': '50a274fed75a49a58ce72a718269f8a6', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:', 'SHELL': '/bin/bash', 'IGN_GAZEBO_SYSTEM_PLUGIN_PATH': ':/home/rakesh/home/rakesh/gazebo_ros2_control', 'TERMINATOR_UUID': 'urn:uuid:b1152892-9a8f-4f3f-a9cb-c2619976cdbe', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rakesh/practice/build/unitree_go2_sim', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/home/rakesh/home/rakesh/unitree_ros2/lib:/home/rakesh/home/rakesh/unitree_ros2/lib:/opt/ros/jazzy/lib:', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/rakesh/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'GZ_SIM_PHYSICS_ENGINE_PATH': '/usr/lib/x86_64-linux-gnu/gz-physics-6/engine-plugins', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy:'}), 'shell': False}
+[0.531113] (unitree_go2_description) CommandEnded: {'returncode': 0}
+[0.531968] (unitree_go2_description) JobProgress: {'identifier': 'unitree_go2_description', 'progress': 'install'}
+[0.532482] (unitree_go2_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rakesh/practice/build/unitree_go2_description'], 'cwd': '/home/rakesh/practice/build/unitree_go2_description', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': ':/home/rakesh/opt/ros/jazzy/share/gz_ros2_control:/opt/ros/jazzy/share', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2866-1-rakesh-HP-Pavilion-Laptop-15-eh1xxx_TIME1526627', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share::/path/to/your/textures', 'USER': 'rakesh', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/opt/ros/jazzy/lib:/opt/unitree_robotics/lib:', 'HOME': '/home/rakesh', 'OLDPWD': '/home/rakesh', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2463', 'SYSTEMD_EXEC_PID': '2866', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5474', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rakesh', 'JOURNAL_STREAM': '9:21432', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rakesh', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share/:/home/rakesh/go2_ws/src/go2_description:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/opt/unitree_robotics/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rakesh-HP-Pavilion-Laptop-15-eh1xxx:@/tmp/.ICE-unix/2835,unix/rakesh-HP-Pavilion-Laptop-15-eh1xxx:/tmp/.ICE-unix/2835', 'INVOCATION_ID': '50a274fed75a49a58ce72a718269f8a6', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:', 'SHELL': '/bin/bash', 'IGN_GAZEBO_SYSTEM_PLUGIN_PATH': ':/home/rakesh/home/rakesh/gazebo_ros2_control', 'TERMINATOR_UUID': 'urn:uuid:b1152892-9a8f-4f3f-a9cb-c2619976cdbe', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rakesh/practice/build/unitree_go2_description', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/home/rakesh/home/rakesh/unitree_ros2/lib:/home/rakesh/home/rakesh/unitree_ros2/lib:/opt/ros/jazzy/lib:', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/rakesh/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'GZ_SIM_PHYSICS_ENGINE_PATH': '/usr/lib/x86_64-linux-gnu/gz-physics-6/engine-plugins', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy:'}), 'shell': False}
+[0.540223] (unitree_go2_sim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.540555] (unitree_go2_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/launch\n'}
+[0.540844] (unitree_go2_sim) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/launch/unitree_go2_launch.py\n'}
+[0.541384] (unitree_go2_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/config\n'}
+[0.541609] (unitree_go2_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/config/links\n'}
+[0.541748] (unitree_go2_sim) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/config/links/links.yaml\n'}
+[0.542216] (unitree_go2_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/config/joints\n'}
+[0.542445] (unitree_go2_sim) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/config/joints/joints.yaml\n'}
+[0.542724] (unitree_go2_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/config/gait\n'}
+[0.542888] (unitree_go2_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.543019] (unitree_go2_sim) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/config/gait/gait.yaml\n'}
+[0.543314] (unitree_go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/worlds\n'}
+[0.543486] (unitree_go2_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/config/ros_control\n'}
+[0.543838] (unitree_go2_description) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/worlds/default.sdf\n'}
+[0.543952] (unitree_go2_sim) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/config/ros_control/ros_control.yaml\n'}
+[0.544221] (unitree_go2_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/rviz\n'}
+[0.544394] (unitree_go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/meshes\n'}
+[0.544540] (unitree_go2_description) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/meshes/trunk.dae\n'}
+[0.544680] (unitree_go2_sim) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/rviz/rviz.rviz\n'}
+[0.545308] (unitree_go2_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/ament_index/resource_index/package_run_dependencies/unitree_go2_sim\n'}
+[0.545527] (unitree_go2_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/ament_index/resource_index/parent_prefix_path/unitree_go2_sim\n'}
+[0.545659] (unitree_go2_sim) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/environment/ament_prefix_path.sh\n'}
+[0.545878] (unitree_go2_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/environment/ament_prefix_path.dsv\n'}
+[0.545966] (unitree_go2_sim) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/environment/path.sh\n'}
+[0.546118] (unitree_go2_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/environment/path.dsv\n'}
+[0.546206] (unitree_go2_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/local_setup.bash\n'}
+[0.546313] (unitree_go2_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/local_setup.sh\n'}
+[0.546390] (unitree_go2_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/local_setup.zsh\n'}
+[0.546450] (unitree_go2_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/local_setup.dsv\n'}
+[0.546538] (unitree_go2_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/package.dsv\n'}
+[0.546627] (unitree_go2_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/ament_index/resource_index/packages/unitree_go2_sim\n'}
+[0.546762] (unitree_go2_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/cmake/unitree_go2_simConfig.cmake\n'}
+[0.546859] (unitree_go2_sim) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/cmake/unitree_go2_simConfig-version.cmake\n'}
+[0.546930] (unitree_go2_sim) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/package.xml\n'}
+[0.549445] (unitree_go2_sim) CommandEnded: {'returncode': 0}
+[0.567236] (unitree_go2_description) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/meshes/foot.dae\n'}
+[0.569008] (unitree_go2_description) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/meshes/L1_4D_Lidar.dae\n'}
+[0.574235] (unitree_go2_description) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/meshes/thigh_mirror.dae\n'}
+[0.581110] (unitree_go2_description) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/meshes/VLP16_base_1.dae\n'}
+[0.583441] (unitree_go2_description) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/meshes/hip.dae\n'}
+[0.583651] (unitree_go2_sim) JobEnded: {'identifier': 'unitree_go2_sim', 'rc': 0}
+[0.593835] (unitree_go2_description) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/meshes/calf.dae\n'}
+[0.596205] (unitree_go2_description) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/meshes/calf_mirror.dae\n'}
+[0.598768] (unitree_go2_description) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/meshes/hokuyo.dae\n'}
+[0.599295] (unitree_go2_description) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/meshes/thigh.dae\n'}
+[0.600220] (-) TimerEvent: {}
+[0.606303] (unitree_go2_description) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/meshes/VLP16_base_2.dae\n'}
+[0.607442] (unitree_go2_description) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/meshes/VLP16_scan.dae\n'}
+[0.608083] (unitree_go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/urdf\n'}
+[0.608435] (unitree_go2_description) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/urdf/materials.xacro\n'}
+[0.608785] (unitree_go2_description) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/urdf/const.xacro\n'}
+[0.609163] (unitree_go2_description) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/urdf/unitree_go2_robot.xacro\n'}
+[0.609559] (unitree_go2_description) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/urdf/unitree_go2_gazebo.xacro\n'}
+[0.609838] (unitree_go2_description) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/urdf/velodyne.xacro\n'}
+[0.610086] (unitree_go2_description) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/urdf/leg.xacro\n'}
+[0.610324] (unitree_go2_description) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/urdf/lidar_4D_lidar.xacro\n'}
+[0.610827] (unitree_go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/unitree_go2_description/share/ament_index/resource_index/package_run_dependencies/unitree_go2_description\n'}
+[0.610965] (unitree_go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/unitree_go2_description/share/ament_index/resource_index/parent_prefix_path/unitree_go2_description\n'}
+[0.611097] (unitree_go2_description) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/environment/ament_prefix_path.sh\n'}
+[0.611318] (unitree_go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/environment/ament_prefix_path.dsv\n'}
+[0.611480] (unitree_go2_description) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/environment/path.sh\n'}
+[0.611616] (unitree_go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/environment/path.dsv\n'}
+[0.611712] (unitree_go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/local_setup.bash\n'}
+[0.611829] (unitree_go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/local_setup.sh\n'}
+[0.611933] (unitree_go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/local_setup.zsh\n'}
+[0.612066] (unitree_go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/local_setup.dsv\n'}
+[0.612191] (unitree_go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/package.dsv\n'}
+[0.612292] (unitree_go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/unitree_go2_description/share/ament_index/resource_index/packages/unitree_go2_description\n'}
+[0.612436] (unitree_go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/cmake/unitree_go2_descriptionConfig.cmake\n'}
+[0.612534] (unitree_go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/cmake/unitree_go2_descriptionConfig-version.cmake\n'}
+[0.612621] (unitree_go2_description) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/unitree_go2_description/share/unitree_go2_description/package.xml\n'}
+[0.614423] (champ) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.615006] (unitree_go2_description) CommandEnded: {'returncode': 0}
+[0.626985] (unitree_go2_description) JobEnded: {'identifier': 'unitree_go2_description', 'rc': 0}
+[0.693652] (champ) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.700380] (-) TimerEvent: {}
+[0.788948] (champ) StdoutLine: {'line': b'-- Configuring done (0.7s)\n'}
+[0.794802] (champ_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[0.798827] (champ) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.800485] (-) TimerEvent: {}
+[0.801585] (champ) StdoutLine: {'line': b'-- Build files have been written to: /home/rakesh/practice/build/champ\n'}
+[0.839298] (champ) CommandEnded: {'returncode': 0}
+[0.840254] (champ) JobProgress: {'identifier': 'champ', 'progress': 'install'}
+[0.841061] (champ) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rakesh/practice/build/champ'], 'cwd': '/home/rakesh/practice/build/champ', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': ':/home/rakesh/opt/ros/jazzy/share/gz_ros2_control:/opt/ros/jazzy/share', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2866-1-rakesh-HP-Pavilion-Laptop-15-eh1xxx_TIME1526627', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share::/path/to/your/textures', 'USER': 'rakesh', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/opt/ros/jazzy/lib:/opt/unitree_robotics/lib:', 'HOME': '/home/rakesh', 'OLDPWD': '/home/rakesh', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2463', 'SYSTEMD_EXEC_PID': '2866', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5474', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rakesh', 'JOURNAL_STREAM': '9:21432', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rakesh', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share/:/home/rakesh/go2_ws/src/go2_description:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/opt/unitree_robotics/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rakesh-HP-Pavilion-Laptop-15-eh1xxx:@/tmp/.ICE-unix/2835,unix/rakesh-HP-Pavilion-Laptop-15-eh1xxx:/tmp/.ICE-unix/2835', 'INVOCATION_ID': '50a274fed75a49a58ce72a718269f8a6', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:', 'SHELL': '/bin/bash', 'IGN_GAZEBO_SYSTEM_PLUGIN_PATH': ':/home/rakesh/home/rakesh/gazebo_ros2_control', 'TERMINATOR_UUID': 'urn:uuid:b1152892-9a8f-4f3f-a9cb-c2619976cdbe', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rakesh/practice/build/champ', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/home/rakesh/home/rakesh/unitree_ros2/lib:/home/rakesh/home/rakesh/unitree_ros2/lib:/opt/ros/jazzy/lib:', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/rakesh/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'GZ_SIM_PHYSICS_ENGINE_PATH': '/usr/lib/x86_64-linux-gnu/gz-physics-6/engine-plugins', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy:'}), 'shell': False}
+[0.851455] (champ) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.851618] (champ) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ/include\n'}
+[0.851829] (champ) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ/include/champ\n'}
+[0.852060] (champ) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ/include/champ/quadruped_base\n'}
+[0.852331] (champ) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ/include/champ/quadruped_base/quadruped_joint.h\n'}
+[0.852856] (champ) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ/include/champ/quadruped_base/quadruped_leg.h\n'}
+[0.853357] (champ) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ/include/champ/quadruped_base/quadruped_base.h\n'}
+[0.853844] (champ) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ/include/champ/quadruped_base/quadruped_components.h\n'}
+[0.854341] (champ) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ/include/champ/LICENSE\n'}
+[0.854771] (champ) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ/include/champ/bla\n'}
+[0.855012] (champ) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ/include/champ/bla/basic_linear_algebra.h\n'}
+[0.855604] (champ) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ/include/champ/bla/memory_delegate.h\n'}
+[0.855906] (champ) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ/include/champ/body_controller\n'}
+[0.856199] (champ) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ/include/champ/body_controller/body_controller.h\n'}
+[0.856539] (champ) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ/include/champ/README.md\n'}
+[0.856906] (champ) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ/include/champ/geometry\n'}
+[0.857197] (champ) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ/include/champ/geometry/geometry.h\n'}
+[0.857720] (champ) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ/include/champ/kinematics\n'}
+[0.858013] (champ) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ/include/champ/kinematics/kinematics.h\n'}
+[0.858392] (champ) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ/include/champ/macros\n'}
+[0.858654] (champ) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ/include/champ/macros/macros.h\n'}
+[0.858957] (champ) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ/include/champ/leg_controller\n'}
+[0.859258] (champ) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ/include/champ/leg_controller/leg_controller.h\n'}
+[0.859602] (champ) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ/include/champ/leg_controller/trajectory_planner.h\n'}
+[0.860001] (champ) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ/include/champ/leg_controller/phase_generator.h\n'}
+[0.860468] (champ) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ/include/champ/utils\n'}
+[0.860681] (champ) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ/include/champ/utils/xmlrpc_helpers.h\n'}
+[0.861062] (champ) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ/include/champ/utils/urdf_loader.h\n'}
+[0.861501] (champ) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ/include/champ/odometry\n'}
+[0.861740] (champ) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ/include/champ/odometry/odometry.h\n'}
+[0.862060] (champ) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ/share/ament_index/resource_index/package_run_dependencies/champ\n'}
+[0.862307] (champ) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ/share/ament_index/resource_index/parent_prefix_path/champ\n'}
+[0.862595] (champ) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ/share/champ/environment/ament_prefix_path.sh\n'}
+[0.862799] (champ) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ/share/champ/environment/ament_prefix_path.dsv\n'}
+[0.863080] (champ) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ/share/champ/environment/path.sh\n'}
+[0.863266] (champ) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ/share/champ/environment/path.dsv\n'}
+[0.863455] (champ) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ/share/champ/local_setup.bash\n'}
+[0.863638] (champ) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ/share/champ/local_setup.sh\n'}
+[0.863925] (champ) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ/share/champ/local_setup.zsh\n'}
+[0.864057] (champ) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ/share/champ/local_setup.dsv\n'}
+[0.864179] (champ) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ/share/champ/package.dsv\n'}
+[0.864316] (champ) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ/share/ament_index/resource_index/packages/champ\n'}
+[0.864463] (champ) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ/share/champ/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.864586] (champ) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ/share/champ/cmake/champConfig.cmake\n'}
+[0.864706] (champ) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ/share/champ/cmake/champConfig-version.cmake\n'}
+[0.864827] (champ) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ/share/champ/package.xml\n'}
+[0.866526] (champ) CommandEnded: {'returncode': 0}
+[0.877178] (champ) JobEnded: {'identifier': 'champ', 'rc': 0}
+[0.900655] (-) TimerEvent: {}
+[0.992200] (champ_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.000757] (-) TimerEvent: {}
+[1.101047] (-) TimerEvent: {}
+[1.201504] (-) TimerEvent: {}
+[1.251741] (champ_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.253819] (champ_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[1.301635] (-) TimerEvent: {}
+[1.401985] (-) TimerEvent: {}
+[1.502379] (-) TimerEvent: {}
+[1.593435] (champ_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[1.602532] (-) TimerEvent: {}
+[1.637804] (champ_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.647656] (champ_msgs) StdoutLine: {'line': b'-- Configuring done (1.5s)\n'}
+[1.702884] (-) TimerEvent: {}
+[1.724707] (champ_msgs) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[1.739422] (champ_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/rakesh/practice/build/champ_msgs\n'}
+[1.802423] (champ_msgs) StdoutLine: {'line': b'[  1%] Built target champ_msgs__rosidl_generator_type_description\n'}
+[1.802987] (-) TimerEvent: {}
+[1.808438] (champ_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_champ_msgs\n'}
+[1.903179] (-) TimerEvent: {}
+[1.954008] (champ_msgs) StdoutLine: {'line': b'[  1%] Built target champ_msgs__cpp\n'}
+[1.979510] (champ_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/velocities__description.c.o\x1b[0m\n'}
+[1.979758] (champ_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/velocities__type_support.c.o\x1b[0m\n'}
+[1.979850] (champ_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/pid__description.c.o\x1b[0m\n'}
+[1.980131] (champ_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/pid__functions.c.o\x1b[0m\n'}
+[1.981055] (champ_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/pid__type_support.c.o\x1b[0m\n'}
+[1.982341] (champ_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/velocities__functions.c.o\x1b[0m\n'}
+[1.983103] (champ_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/imu__functions.c.o\x1b[0m\n'}
+[1.983318] (champ_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/point__description.c.o\x1b[0m\n'}
+[1.983436] (champ_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/imu__description.c.o\x1b[0m\n'}
+[1.983828] (champ_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/imu__type_support.c.o\x1b[0m\n'}
+[1.987717] (champ_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/point__functions.c.o\x1b[0m\n'}
+[2.003260] (-) TimerEvent: {}
+[2.075512] (champ_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/point_array__functions.c.o\x1b[0m\n'}
+[2.075772] (champ_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/point_array__description.c.o\x1b[0m\n'}
+[2.075859] (champ_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/point__type_support.c.o\x1b[0m\n'}
+[2.101045] (champ_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/joints__description.c.o\x1b[0m\n'}
+[2.101448] (champ_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/point_array__type_support.c.o\x1b[0m\n'}
+[2.101565] (champ_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/joints__type_support.c.o\x1b[0m\n'}
+[2.101640] (champ_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/joints__functions.c.o\x1b[0m\n'}
+[2.103390] (-) TimerEvent: {}
+[2.121009] (champ_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/contacts__description.c.o\x1b[0m\n'}
+[2.121310] (champ_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/contacts__functions.c.o\x1b[0m\n'}
+[2.122909] (champ_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/contacts__type_support.c.o\x1b[0m\n'}
+[2.124726] (champ_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/contacts_stamped__description.c.o\x1b[0m\n'}
+[2.130584] (champ_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/contacts_stamped__functions.c.o\x1b[0m\n'}
+[2.143124] (champ_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/contacts_stamped__type_support.c.o\x1b[0m\n'}
+[2.156453] (champ_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/pose__description.c.o\x1b[0m\n'}
+[2.156713] (champ_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/pose__functions.c.o\x1b[0m\n'}
+[2.158707] (champ_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/pose__type_support.c.o\x1b[0m\n'}
+[2.186923] (champ_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[2.203496] (-) TimerEvent: {}
+[2.218253] (champ_msgs) StdoutLine: {'line': b'writing champ_msgs.egg-info/PKG-INFO\n'}
+[2.218555] (champ_msgs) StdoutLine: {'line': b'writing dependency_links to champ_msgs.egg-info/dependency_links.txt\n'}
+[2.218806] (champ_msgs) StdoutLine: {'line': b'writing top-level names to champ_msgs.egg-info/top_level.txt\n'}
+[2.222038] (champ_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32m\x1b[1mLinking C shared library libchamp_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[2.288198] (champ_msgs) StdoutLine: {'line': b'[ 27%] Built target champ_msgs__rosidl_generator_c\n'}
+[2.305475] (-) TimerEvent: {}
+[2.316973] (champ_msgs) StdoutLine: {'line': b"reading manifest file 'champ_msgs.egg-info/SOURCES.txt'\n"}
+[2.318741] (champ_msgs) StdoutLine: {'line': b"writing manifest file 'champ_msgs.egg-info/SOURCES.txt'\n"}
+[2.355485] (champ_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/velocities__type_support.cpp.o\x1b[0m\n'}
+[2.356528] (champ_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/pid__type_support.cpp.o\x1b[0m\n'}
+[2.363753] (champ_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/velocities__type_support_c.cpp.o\x1b[0m\n'}
+[2.364162] (champ_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/velocities__type_support.cpp.o\x1b[0m\n'}
+[2.365761] (champ_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/point__type_support.cpp.o\x1b[0m\n'}
+[2.366105] (champ_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/imu__type_support.cpp.o\x1b[0m\n'}
+[2.369657] (champ_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/point_array__type_support.cpp.o\x1b[0m\n'}
+[2.374771] (champ_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/pid__type_support_c.cpp.o\x1b[0m\n'}
+[2.402495] (champ_msgs) StdoutLine: {'line': b'[ 35%] Built target ament_cmake_python_build_champ_msgs_egg\n'}
+[2.402726] (champ_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/velocities__type_support.cpp.o\x1b[0m\n'}
+[2.405073] (champ_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/velocities__type_support.cpp.o\x1b[0m\n'}
+[2.405542] (-) TimerEvent: {}
+[2.418439] (champ_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/pid__type_support.cpp.o\x1b[0m\n'}
+[2.424074] (champ_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/velocities__type_support.c.o\x1b[0m\n'}
+[2.479609] (champ_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/pid__type_support.c.o\x1b[0m\n'}
+[2.494446] (champ_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/imu__type_support.cpp.o\x1b[0m\n'}
+[2.494727] (champ_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/imu__type_support_c.cpp.o\x1b[0m\n'}
+[2.494792] (champ_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/imu__type_support.c.o\x1b[0m\n'}
+[2.494849] (champ_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/pid__type_support.cpp.o\x1b[0m\n'}
+[2.495279] (champ_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/joints__type_support.cpp.o\x1b[0m\n'}
+[2.505852] (-) TimerEvent: {}
+[2.552176] (champ_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/imu__type_support.cpp.o\x1b[0m\n'}
+[2.568264] (champ_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/point__type_support.c.o\x1b[0m\n'}
+[2.584812] (champ_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/contacts__type_support.cpp.o\x1b[0m\n'}
+[2.606038] (-) TimerEvent: {}
+[2.646883] (champ_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/point_array__type_support.c.o\x1b[0m\n'}
+[2.667467] (champ_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/contacts_stamped__type_support.cpp.o\x1b[0m\n'}
+[2.706217] (-) TimerEvent: {}
+[2.734262] (champ_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/joints__type_support.c.o\x1b[0m\n'}
+[2.753519] (champ_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/pose__type_support.cpp.o\x1b[0m\n'}
+[2.806402] (-) TimerEvent: {}
+[2.821524] (champ_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/contacts__type_support.c.o\x1b[0m\n'}
+[2.832466] (champ_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libchamp_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.901385] (champ_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/contacts_stamped__type_support.c.o\x1b[0m\n'}
+[2.902591] (champ_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/point__type_support.cpp.o\x1b[0m\n'}
+[2.906552] (-) TimerEvent: {}
+[2.927115] (champ_msgs) StdoutLine: {'line': b'[ 53%] Built target champ_msgs__rosidl_typesupport_c\n'}
+[2.927558] (champ_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/pid__type_support.cpp.o\x1b[0m\n'}
+[2.948947] (champ_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/point__type_support_c.cpp.o\x1b[0m\n'}
+[2.987148] (champ_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/pose__type_support.c.o\x1b[0m\n'}
+[3.006373] (champ_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/point_array__type_support_c.cpp.o\x1b[0m\n'}
+[3.006666] (-) TimerEvent: {}
+[3.062231] (champ_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libchamp_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.085311] (champ_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/joints__type_support_c.cpp.o\x1b[0m\n'}
+[3.107478] (-) TimerEvent: {}
+[3.140490] (champ_msgs) StdoutLine: {'line': b'[ 60%] Built target champ_msgs__rosidl_typesupport_introspection_c\n'}
+[3.153444] (champ_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/point__type_support.cpp.o\x1b[0m\n'}
+[3.159461] (champ_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/point_array__type_support.cpp.o\x1b[0m\n'}
+[3.163729] (champ_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/imu__type_support.cpp.o\x1b[0m\n'}
+[3.174159] (champ_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/contacts__type_support_c.cpp.o\x1b[0m\n'}
+[3.177044] (champ_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/contacts_stamped__type_support_c.cpp.o\x1b[0m\n'}
+[3.207612] (-) TimerEvent: {}
+[3.243865] (champ_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/joints__type_support.cpp.o\x1b[0m\n'}
+[3.287884] (champ_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/pose__type_support_c.cpp.o\x1b[0m\n'}
+[3.308458] (-) TimerEvent: {}
+[3.408723] (champ_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/point__type_support.cpp.o\x1b[0m\n'}
+[3.409174] (-) TimerEvent: {}
+[3.441469] (champ_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/point_array__type_support.cpp.o\x1b[0m\n'}
+[3.509360] (-) TimerEvent: {}
+[3.609766] (-) TimerEvent: {}
+[3.689523] (champ_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/contacts__type_support.cpp.o\x1b[0m\n'}
+[3.692646] (champ_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/joints__type_support.cpp.o\x1b[0m\n'}
+[3.712496] (champ_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/point_array__type_support.cpp.o\x1b[0m\n'}
+[3.712790] (-) TimerEvent: {}
+[3.762330] (champ_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/contacts__type_support.cpp.o\x1b[0m\n'}
+[3.790910] (champ_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/joints__type_support.cpp.o\x1b[0m\n'}
+[3.812947] (-) TimerEvent: {}
+[3.890306] (champ_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/contacts_stamped__type_support.cpp.o\x1b[0m\n'}
+[3.913101] (-) TimerEvent: {}
+[3.936456] (champ_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/contacts_stamped__type_support.cpp.o\x1b[0m\n'}
+[3.941169] (champ_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/contacts__type_support.cpp.o\x1b[0m\n'}
+[3.945444] (champ_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/pose__type_support.cpp.o\x1b[0m\n'}
+[3.945776] (champ_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/pose__type_support.cpp.o\x1b[0m\n'}
+[4.013465] (-) TimerEvent: {}
+[4.065444] (champ_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libchamp_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.113597] (-) TimerEvent: {}
+[4.202943] (champ_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/contacts_stamped__type_support.cpp.o\x1b[0m\n'}
+[4.203832] (champ_msgs) StdoutLine: {'line': b'[ 79%] Built target champ_msgs__rosidl_typesupport_fastrtps_c\n'}
+[4.213747] (-) TimerEvent: {}
+[4.225805] (champ_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/pose__type_support.cpp.o\x1b[0m\n'}
+[4.313903] (-) TimerEvent: {}
+[4.414333] (-) TimerEvent: {}
+[4.414706] (champ_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX shared library libchamp_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.481788] (champ_msgs) StdoutLine: {'line': b'[ 82%] Built target champ_msgs__rosidl_typesupport_cpp\n'}
+[4.514440] (-) TimerEvent: {}
+[4.614799] (-) TimerEvent: {}
+[4.626169] (champ_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX shared library libchamp_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.649589] (champ_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX shared library libchamp_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.714932] (-) TimerEvent: {}
+[4.747794] (champ_msgs) StdoutLine: {'line': b'[ 85%] Built target champ_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[4.764994] (champ_msgs) StdoutLine: {'line': b'[ 85%] Built target champ_msgs__rosidl_typesupport_introspection_cpp\n'}
+[4.794552] (champ_msgs) StdoutLine: {'line': b'[ 85%] Built target champ_msgs\n'}
+[4.815085] (-) TimerEvent: {}
+[4.824748] (champ_msgs) StdoutLine: {'line': b'[ 86%] Built target champ_msgs__py\n'}
+[4.875475] (champ_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pid_s.c.o\x1b[0m\n'}
+[4.875774] (champ_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_s.c.o\x1b[0m\n'}
+[4.875961] (champ_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_array_s.c.o\x1b[0m\n'}
+[4.876061] (champ_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_imu_s.c.o\x1b[0m\n'}
+[4.876175] (champ_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_velocities_s.c.o\x1b[0m\n'}
+[4.879029] (champ_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_joints_s.c.o\x1b[0m\n'}
+[4.879986] (champ_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_stamped_s.c.o\x1b[0m\n'}
+[4.880172] (champ_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pose_s.c.o\x1b[0m\n'}
+[4.880465] (champ_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_s.c.o\x1b[0m\n'}
+[4.915236] (-) TimerEvent: {}
+[5.015615] (-) TimerEvent: {}
+[5.069595] (champ_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library libchamp_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[5.115758] (-) TimerEvent: {}
+[5.130448] (champ_msgs) StdoutLine: {'line': b'[ 94%] Built target champ_msgs__rosidl_generator_py\n'}
+[5.162790] (champ_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/champ_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.162967] (champ_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/champ_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.164436] (champ_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/champ_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.215908] (-) TimerEvent: {}
+[5.293471] (champ_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/champ_msgs/champ_msgs_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.297557] (champ_msgs) StdoutLine: {'line': b'[ 99%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/champ_msgs/champ_msgs_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.300379] (champ_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/champ_msgs/champ_msgs_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.316049] (-) TimerEvent: {}
+[5.338496] (champ_msgs) StdoutLine: {'line': b'[100%] Built target champ_msgs_s__rosidl_typesupport_c\n'}
+[5.340103] (champ_msgs) StdoutLine: {'line': b'[100%] Built target champ_msgs_s__rosidl_typesupport_introspection_c\n'}
+[5.344674] (champ_msgs) StdoutLine: {'line': b'[100%] Built target champ_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[5.364131] (champ_msgs) CommandEnded: {'returncode': 0}
+[5.365223] (champ_msgs) JobProgress: {'identifier': 'champ_msgs', 'progress': 'install'}
+[5.365763] (champ_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rakesh/practice/build/champ_msgs'], 'cwd': '/home/rakesh/practice/build/champ_msgs', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': ':/home/rakesh/opt/ros/jazzy/share/gz_ros2_control:/opt/ros/jazzy/share', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2866-1-rakesh-HP-Pavilion-Laptop-15-eh1xxx_TIME1526627', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share::/path/to/your/textures', 'USER': 'rakesh', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/opt/ros/jazzy/lib:/opt/unitree_robotics/lib:', 'HOME': '/home/rakesh', 'OLDPWD': '/home/rakesh', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2463', 'SYSTEMD_EXEC_PID': '2866', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5474', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rakesh', 'JOURNAL_STREAM': '9:21432', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rakesh', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share/:/home/rakesh/go2_ws/src/go2_description:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/opt/unitree_robotics/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rakesh-HP-Pavilion-Laptop-15-eh1xxx:@/tmp/.ICE-unix/2835,unix/rakesh-HP-Pavilion-Laptop-15-eh1xxx:/tmp/.ICE-unix/2835', 'INVOCATION_ID': '50a274fed75a49a58ce72a718269f8a6', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:', 'SHELL': '/bin/bash', 'IGN_GAZEBO_SYSTEM_PLUGIN_PATH': ':/home/rakesh/home/rakesh/gazebo_ros2_control', 'TERMINATOR_UUID': 'urn:uuid:b1152892-9a8f-4f3f-a9cb-c2619976cdbe', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rakesh/practice/build/champ_msgs', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/home/rakesh/home/rakesh/unitree_ros2/lib:/home/rakesh/home/rakesh/unitree_ros2/lib:/opt/ros/jazzy/lib:', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/rakesh/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'GZ_SIM_PHYSICS_ENGINE_PATH': '/usr/lib/x86_64-linux-gnu/gz-physics-6/engine-plugins', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy:'}), 'shell': False}
+[5.376782] (champ_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.377187] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/ament_index/resource_index/rosidl_interfaces/champ_msgs\n'}
+[5.377498] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/msg/Velocities.json\n'}
+[5.377806] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/msg/PID.json\n'}
+[5.377998] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/msg/Imu.json\n'}
+[5.378158] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/msg/Point.json\n'}
+[5.378314] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/msg/PointArray.json\n'}
+[5.378509] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/msg/Joints.json\n'}
+[5.378672] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/msg/Contacts.json\n'}
+[5.378964] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/msg/ContactsStamped.json\n'}
+[5.379156] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/msg/Pose.json\n'}
+[5.379330] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs\n'}
+[5.379579] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg\n'}
+[5.379751] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/velocities.h\n'}
+[5.379898] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.380045] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/point.h\n'}
+[5.380200] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/contacts.h\n'}
+[5.380373] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/point_array.h\n'}
+[5.380550] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/joints.h\n'}
+[5.380721] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/contacts_stamped.h\n'}
+[5.380985] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/imu.h\n'}
+[5.381160] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/pid.h\n'}
+[5.381334] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/pose.h\n'}
+[5.381566] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail\n'}
+[5.381738] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__struct.h\n'}
+[5.381912] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__struct.h\n'}
+[5.382083] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__functions.c\n'}
+[5.382254] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__struct.h\n'}
+[5.382475] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__type_support.h\n'}
+[5.382652] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__description.c\n'}
+[5.382824] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__functions.h\n'}
+[5.383158] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__description.c\n'}
+[5.383454] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__description.c\n'}
+[5.383645] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__type_support.h\n'}
+[5.383821] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__functions.h\n'}
+[5.384017] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__type_support.c\n'}
+[5.384193] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__functions.c\n'}
+[5.384383] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__type_support.h\n'}
+[5.384559] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__functions.h\n'}
+[5.384841] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__functions.c\n'}
+[5.385014] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__functions.h\n'}
+[5.385185] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__description.c\n'}
+[5.385387] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__type_support.h\n'}
+[5.385568] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__type_support.h\n'}
+[5.385739] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__type_support.c\n'}
+[5.385910] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__type_support.h\n'}
+[5.386080] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__functions.h\n'}
+[5.386249] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__functions.c\n'}
+[5.386451] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__functions.c\n'}
+[5.386627] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__functions.c\n'}
+[5.386800] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__type_support.c\n'}
+[5.386971] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__struct.h\n'}
+[5.387143] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__description.c\n'}
+[5.387314] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__type_support.c\n'}
+[5.387521] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__struct.h\n'}
+[5.387843] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__functions.h\n'}
+[5.388017] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__description.c\n'}
+[5.388188] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__functions.h\n'}
+[5.388378] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__functions.h\n'}
+[5.388544] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__type_support.h\n'}
+[5.388714] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__type_support.c\n'}
+[5.388878] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__struct.h\n'}
+[5.389034] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__functions.c\n'}
+[5.389264] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__description.c\n'}
+[5.389460] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__struct.h\n'}
+[5.389635] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__type_support.h\n'}
+[5.389801] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__functions.c\n'}
+[5.390048] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__struct.h\n'}
+[5.390212] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__type_support.h\n'}
+[5.390421] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__struct.h\n'}
+[5.390619] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__type_support.c\n'}
+[5.390778] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__functions.h\n'}
+[5.390934] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__functions.c\n'}
+[5.391091] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__description.c\n'}
+[5.391253] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__type_support.c\n'}
+[5.391464] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__type_support.c\n'}
+[5.391637] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__description.c\n'}
+[5.391799] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__type_support.c\n'}
+[5.391972] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/environment/library_path.sh\n'}
+[5.392144] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/environment/library_path.dsv\n'}
+[5.392315] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/lib/libchamp_msgs__rosidl_generator_c.so\n'}
+[5.392507] (champ_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rakesh/practice/install/champ_msgs/lib/libchamp_msgs__rosidl_generator_c.so" to ""\n'}
+[5.392682] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs\n'}
+[5.392853] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg\n'}
+[5.393027] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.393312] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail\n'}
+[5.393663] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__rosidl_typesupport_fastrtps_c.h\n'}
+[5.394066] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[5.394297] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__rosidl_typesupport_fastrtps_c.h\n'}
+[5.394553] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__rosidl_typesupport_fastrtps_c.h\n'}
+[5.394893] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__rosidl_typesupport_fastrtps_c.h\n'}
+[5.395119] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__rosidl_typesupport_fastrtps_c.h\n'}
+[5.395365] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__rosidl_typesupport_fastrtps_c.h\n'}
+[5.395590] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[5.395800] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__rosidl_typesupport_fastrtps_c.h\n'}
+[5.396011] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[5.396235] (champ_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rakesh/practice/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.396476] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs\n'}
+[5.396838] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg\n'}
+[5.397090] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.397319] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail\n'}
+[5.397568] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__rosidl_typesupport_introspection_c.h\n'}
+[5.397788] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__type_support.c\n'}
+[5.398011] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__rosidl_typesupport_introspection_c.h\n'}
+[5.398234] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__type_support.c\n'}
+[5.398475] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__type_support.c\n'}
+[5.398698] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__rosidl_typesupport_introspection_c.h\n'}
+[5.398919] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__type_support.c\n'}
+[5.399142] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__rosidl_typesupport_introspection_c.h\n'}
+[5.399388] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__type_support.c\n'}
+[5.399775] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__rosidl_typesupport_introspection_c.h\n'}
+[5.400003] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__rosidl_typesupport_introspection_c.h\n'}
+[5.400228] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__type_support.c\n'}
+[5.400488] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[5.400717] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__rosidl_typesupport_introspection_c.h\n'}
+[5.400941] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__type_support.c\n'}
+[5.401163] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__type_support.c\n'}
+[5.401405] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__rosidl_typesupport_introspection_c.h\n'}
+[5.401635] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__type_support.c\n'}
+[5.401858] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_introspection_c.so\n'}
+[5.402080] (champ_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rakesh/practice/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.402533] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_c.so\n'}
+[5.402768] (champ_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rakesh/practice/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_c.so" to ""\n'}
+[5.402994] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs\n'}
+[5.403216] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg\n'}
+[5.403465] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/contacts_stamped.hpp\n'}
+[5.403692] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/imu.hpp\n'}
+[5.403916] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/point.hpp\n'}
+[5.404139] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/pid.hpp\n'}
+[5.404379] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/point_array.hpp\n'}
+[5.404741] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/pose.hpp\n'}
+[5.404974] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/joints.hpp\n'}
+[5.405197] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/velocities.hpp\n'}
+[5.405452] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/contacts.hpp\n'}
+[5.405787] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail\n'}
+[5.406011] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__traits.hpp\n'}
+[5.406234] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__type_support.hpp\n'}
+[5.406473] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__struct.hpp\n'}
+[5.406683] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__struct.hpp\n'}
+[5.406909] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__traits.hpp\n'}
+[5.407122] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__builder.hpp\n'}
+[5.407329] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__builder.hpp\n'}
+[5.407569] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__builder.hpp\n'}
+[5.407795] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__type_support.hpp\n'}
+[5.408020] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__builder.hpp\n'}
+[5.408239] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__builder.hpp\n'}
+[5.408486] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__struct.hpp\n'}
+[5.408709] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__type_support.hpp\n'}
+[5.408931] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__traits.hpp\n'}
+[5.409144] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__struct.hpp\n'}
+[5.409384] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__type_support.hpp\n'}
+[5.409611] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__traits.hpp\n'}
+[5.409838] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__struct.hpp\n'}
+[5.410060] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__struct.hpp\n'}
+[5.410272] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__builder.hpp\n'}
+[5.410500] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__struct.hpp\n'}
+[5.410711] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__type_support.hpp\n'}
+[5.411259] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__struct.hpp\n'}
+[5.411489] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__type_support.hpp\n'}
+[5.411753] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__builder.hpp\n'}
+[5.411986] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__struct.hpp\n'}
+[5.412197] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__type_support.hpp\n'}
+[5.412553] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__traits.hpp\n'}
+[5.412804] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__traits.hpp\n'}
+[5.413029] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__builder.hpp\n'}
+[5.413255] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__type_support.hpp\n'}
+[5.413498] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__type_support.hpp\n'}
+[5.413708] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__traits.hpp\n'}
+[5.413917] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__builder.hpp\n'}
+[5.414134] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__traits.hpp\n'}
+[5.414381] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__traits.hpp\n'}
+[5.414614] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[5.414830] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs\n'}
+[5.415039] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg\n'}
+[5.415248] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.415491] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail\n'}
+[5.415708] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.415917] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.416120] (-) TimerEvent: {}
+[5.416311] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.416569] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.416785] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.416998] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.417335] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/dds_fastrtps\n'}
+[5.417601] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.417770] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.417932] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.418151] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.418314] (champ_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rakesh/practice/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[5.418761] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs\n'}
+[5.418945] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg\n'}
+[5.419121] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail\n'}
+[5.419371] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__type_support.cpp\n'}
+[5.419586] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__type_support.cpp\n'}
+[5.419760] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.419986] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__type_support.cpp\n'}
+[5.420200] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.420427] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.420602] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__type_support.cpp\n'}
+[5.420759] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__type_support.cpp\n'}
+[5.420937] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.421097] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__type_support.cpp\n'}
+[5.421245] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__type_support.cpp\n'}
+[5.421435] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.421625] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.421777] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__type_support.cpp\n'}
+[5.421977] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.422103] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.422221] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.422337] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__type_support.cpp\n'}
+[5.422497] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[5.422617] (champ_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rakesh/practice/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[5.422736] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_cpp.so\n'}
+[5.422854] (champ_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rakesh/practice/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[5.422973] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/environment/pythonpath.sh\n'}
+[5.423090] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/environment/pythonpath.dsv\n'}
+[5.423209] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs-0.1.0-py3.12.egg-info\n'}
+[5.423328] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs-0.1.0-py3.12.egg-info/PKG-INFO\n'}
+[5.423482] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs-0.1.0-py3.12.egg-info/SOURCES.txt\n'}
+[5.423607] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs-0.1.0-py3.12.egg-info/top_level.txt\n'}
+[5.423725] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs-0.1.0-py3.12.egg-info/dependency_links.txt\n'}
+[5.423844] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs\n'}
+[5.423962] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[5.424080] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/__init__.py\n'}
+[5.424228] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg\n'}
+[5.424366] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_contacts_stamped_s.c\n'}
+[5.424509] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_pose_s.c\n'}
+[5.424630] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/__init__.py\n'}
+[5.424749] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_velocities.py\n'}
+[5.424879] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_pose.py\n'}
+[5.424996] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_joints_s.c\n'}
+[5.425114] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_point.py\n'}
+[5.425232] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_point_s.c\n'}
+[5.425367] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_joints.py\n'}
+[5.425508] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_contacts.py\n'}
+[5.425627] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_pid.py\n'}
+[5.425745] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_point_array.py\n'}
+[5.425862] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_point_array_s.c\n'}
+[5.425980] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_contacts_stamped.py\n'}
+[5.426098] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_imu_s.c\n'}
+[5.426215] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_velocities_s.c\n'}
+[5.426333] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_imu.py\n'}
+[5.426500] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_pid_s.c\n'}
+[5.426627] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_contacts_s.c\n'}
+[5.426748] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.426870] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[5.426997] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_c.so\n'}
+[5.427124] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[5.427245] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.466865] (champ_msgs) StdoutLine: {'line': b"Listing '/home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs'...\n"}
+[5.467160] (champ_msgs) StdoutLine: {'line': b"Compiling '/home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/__init__.py'...\n"}
+[5.467296] (champ_msgs) StdoutLine: {'line': b"Listing '/home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg'...\n"}
+[5.467459] (champ_msgs) StdoutLine: {'line': b"Compiling '/home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/__init__.py'...\n"}
+[5.467586] (champ_msgs) StdoutLine: {'line': b"Compiling '/home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_contacts.py'...\n"}
+[5.467727] (champ_msgs) StdoutLine: {'line': b"Compiling '/home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_contacts_stamped.py'...\n"}
+[5.467847] (champ_msgs) StdoutLine: {'line': b"Compiling '/home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_imu.py'...\n"}
+[5.467968] (champ_msgs) StdoutLine: {'line': b"Compiling '/home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_joints.py'...\n"}
+[5.468099] (champ_msgs) StdoutLine: {'line': b"Compiling '/home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_pid.py'...\n"}
+[5.468221] (champ_msgs) StdoutLine: {'line': b"Compiling '/home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_point.py'...\n"}
+[5.468373] (champ_msgs) StdoutLine: {'line': b"Compiling '/home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_point_array.py'...\n"}
+[5.468514] (champ_msgs) StdoutLine: {'line': b"Compiling '/home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_pose.py'...\n"}
+[5.468634] (champ_msgs) StdoutLine: {'line': b"Compiling '/home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_velocities.py'...\n"}
+[5.473812] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[5.474385] (champ_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.474737] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[5.475085] (champ_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.475389] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_c.so\n'}
+[5.475671] (champ_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_c.so" to ""\n'}
+[5.476186] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/lib/libchamp_msgs__rosidl_generator_py.so\n'}
+[5.476675] (champ_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rakesh/practice/install/champ_msgs/lib/libchamp_msgs__rosidl_generator_py.so" to ""\n'}
+[5.477009] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/msg/Velocities.idl\n'}
+[5.477183] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/msg/PID.idl\n'}
+[5.477382] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/msg/Imu.idl\n'}
+[5.477746] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/msg/Point.idl\n'}
+[5.478003] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/msg/PointArray.idl\n'}
+[5.478189] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/msg/Joints.idl\n'}
+[5.478462] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/msg/Contacts.idl\n'}
+[5.478695] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/msg/ContactsStamped.idl\n'}
+[5.479012] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/msg/Pose.idl\n'}
+[5.479226] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/msg/Velocities.msg\n'}
+[5.479480] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/msg/PID.msg\n'}
+[5.479703] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/msg/Imu.msg\n'}
+[5.479911] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/msg/Point.msg\n'}
+[5.480116] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/msg/PointArray.msg\n'}
+[5.480322] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/msg/Joints.msg\n'}
+[5.480566] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/msg/Contacts.msg\n'}
+[5.480779] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/msg/ContactsStamped.msg\n'}
+[5.480987] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/msg/Pose.msg\n'}
+[5.481277] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/ament_index/resource_index/package_run_dependencies/champ_msgs\n'}
+[5.481731] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/ament_index/resource_index/parent_prefix_path/champ_msgs\n'}
+[5.482008] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/environment/ament_prefix_path.sh\n'}
+[5.482311] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/environment/ament_prefix_path.dsv\n'}
+[5.482574] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/environment/path.sh\n'}
+[5.482788] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/environment/path.dsv\n'}
+[5.482997] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/local_setup.bash\n'}
+[5.483204] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/local_setup.sh\n'}
+[5.483440] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/local_setup.zsh\n'}
+[5.483819] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/local_setup.dsv\n'}
+[5.483988] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/package.dsv\n'}
+[5.484154] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/ament_index/resource_index/packages/champ_msgs\n'}
+[5.484422] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_generator_cExport.cmake\n'}
+[5.484602] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.484754] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.484902] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.485051] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.485215] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.485383] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_cExport.cmake\n'}
+[5.485555] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.485704] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_generator_cppExport.cmake\n'}
+[5.485871] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.486026] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[5.486183] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.486341] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.486538] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[5.486697] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.486856] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_generator_pyExport.cmake\n'}
+[5.487011] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[5.487169] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[5.487325] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.487516] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.487681] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.487837] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.487994] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.488229] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.488419] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/cmake/champ_msgsConfig.cmake\n'}
+[5.488589] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/cmake/champ_msgsConfig-version.cmake\n'}
+[5.488745] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_msgs/share/champ_msgs/package.xml\n'}
+[5.489853] (champ_msgs) CommandEnded: {'returncode': 0}
+[5.516333] (-) TimerEvent: {}
+[5.534074] (champ_msgs) JobEnded: {'identifier': 'champ_msgs', 'rc': 0}
+[5.536543] (champ_base) JobStarted: {'identifier': 'champ_base'}
+[5.551540] (champ_base) JobProgress: {'identifier': 'champ_base', 'progress': 'cmake'}
+[5.552374] (champ_base) JobProgress: {'identifier': 'champ_base', 'progress': 'build'}
+[5.552871] (champ_base) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rakesh/practice/build/champ_base', '--', '-j12', '-l12'], 'cwd': '/home/rakesh/practice/build/champ_base', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': ':/home/rakesh/opt/ros/jazzy/share/gz_ros2_control:/opt/ros/jazzy/share', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2866-1-rakesh-HP-Pavilion-Laptop-15-eh1xxx_TIME1526627', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share::/path/to/your/textures', 'USER': 'rakesh', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rakesh/practice/install/champ_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/opt/ros/jazzy/lib:/opt/unitree_robotics/lib', 'HOME': '/home/rakesh', 'OLDPWD': '/home/rakesh', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2463', 'SYSTEMD_EXEC_PID': '2866', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5474', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rakesh', 'JOURNAL_STREAM': '9:21432', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rakesh', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share/:/home/rakesh/go2_ws/src/go2_description:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/opt/unitree_robotics/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rakesh-HP-Pavilion-Laptop-15-eh1xxx:@/tmp/.ICE-unix/2835,unix/rakesh-HP-Pavilion-Laptop-15-eh1xxx:/tmp/.ICE-unix/2835', 'INVOCATION_ID': '50a274fed75a49a58ce72a718269f8a6', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/rakesh/practice/install/champ_msgs:/home/rakesh/practice/install/champ:/opt/ros/jazzy:', 'SHELL': '/bin/bash', 'IGN_GAZEBO_SYSTEM_PLUGIN_PATH': ':/home/rakesh/home/rakesh/gazebo_ros2_control', 'TERMINATOR_UUID': 'urn:uuid:b1152892-9a8f-4f3f-a9cb-c2619976cdbe', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rakesh/practice/build/champ_base', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/home/rakesh/home/rakesh/unitree_ros2/lib:/home/rakesh/home/rakesh/unitree_ros2/lib:/opt/ros/jazzy/lib:', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/rakesh/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'GZ_SIM_PHYSICS_ENGINE_PATH': '/usr/lib/x86_64-linux-gnu/gz-physics-6/engine-plugins', 'CMAKE_PREFIX_PATH': '/home/rakesh/practice/install/champ_msgs:/home/rakesh/practice/install/champ:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy:'}), 'shell': False}
+[5.595806] (champ_base) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[5.616426] (-) TimerEvent: {}
+[5.716699] (-) TimerEvent: {}
+[5.817009] (-) TimerEvent: {}
+[5.842470] (champ_base) StdoutLine: {'line': b'-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[5.888256] (champ_base) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[5.897522] (champ_base) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[5.910169] (champ_base) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.917138] (-) TimerEvent: {}
+[5.924043] (champ_base) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.987968] (champ_base) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[5.989236] (champ_base) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.017294] (-) TimerEvent: {}
+[6.067480] (champ_base) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.117424] (-) TimerEvent: {}
+[6.135611] (champ_base) StdoutLine: {'line': b'-- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)\n'}
+[6.136037] (champ_base) StdoutLine: {'line': b'-- Found champ_msgs: 0.1.0 (/home/rakesh/practice/install/champ_msgs/share/champ_msgs/cmake)\n'}
+[6.186874] (champ_base) StdoutLine: {'line': b'-- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)\n'}
+[6.217817] (-) TimerEvent: {}
+[6.251301] (champ_base) StdoutLine: {'line': b'-- Found trajectory_msgs: 5.3.6 (/opt/ros/jazzy/share/trajectory_msgs/cmake)\n'}
+[6.276259] (champ_base) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[6.306175] (champ_base) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[6.317940] (-) TimerEvent: {}
+[6.418298] (-) TimerEvent: {}
+[6.439722] (champ_base) StdoutLine: {'line': b'-- Found urdf: 2.10.0 (/opt/ros/jazzy/share/urdf/cmake)\n'}
+[6.452184] (champ_base) StdoutLine: {'line': b'-- Found champ: 0.1.0 (/home/rakesh/practice/install/champ/share/champ/cmake)\n'}
+[6.518436] (-) TimerEvent: {}
+[6.575104] (champ_base) StdoutLine: {'line': b'-- Configuring done (1.0s)\n'}
+[6.618566] (-) TimerEvent: {}
+[6.638447] (champ_base) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[6.654407] (champ_base) StdoutLine: {'line': b'-- Build files have been written to: /home/rakesh/practice/build/champ_base\n'}
+[6.718688] (-) TimerEvent: {}
+[6.735477] (champ_base) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/quadruped_controller.dir/src/quadruped_controller.cpp.o\x1b[0m\n'}
+[6.735724] (champ_base) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/state_estimation.dir/src/state_estimation.cpp.o\x1b[0m\n'}
+[6.736008] (champ_base) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/message_relay.dir/src/message_relay.cpp.o\x1b[0m\n'}
+[6.818815] (-) TimerEvent: {}
+[6.919105] (-) TimerEvent: {}
+[7.019377] (-) TimerEvent: {}
+[7.119674] (-) TimerEvent: {}
+[7.219978] (-) TimerEvent: {}
+[7.320299] (-) TimerEvent: {}
+[7.420639] (-) TimerEvent: {}
+[7.520958] (-) TimerEvent: {}
+[7.621290] (-) TimerEvent: {}
+[7.721642] (-) TimerEvent: {}
+[7.821998] (-) TimerEvent: {}
+[7.922453] (-) TimerEvent: {}
+[8.022834] (-) TimerEvent: {}
+[8.123231] (-) TimerEvent: {}
+[8.223659] (-) TimerEvent: {}
+[8.324039] (-) TimerEvent: {}
+[8.424451] (-) TimerEvent: {}
+[8.525022] (-) TimerEvent: {}
+[8.625440] (-) TimerEvent: {}
+[8.725824] (-) TimerEvent: {}
+[8.826220] (-) TimerEvent: {}
+[8.926647] (-) TimerEvent: {}
+[9.027013] (-) TimerEvent: {}
+[9.127460] (-) TimerEvent: {}
+[9.227837] (-) TimerEvent: {}
+[9.328205] (-) TimerEvent: {}
+[9.428622] (-) TimerEvent: {}
+[9.528998] (-) TimerEvent: {}
+[9.629393] (-) TimerEvent: {}
+[9.729768] (-) TimerEvent: {}
+[9.830145] (-) TimerEvent: {}
+[9.930545] (-) TimerEvent: {}
+[10.030924] (-) TimerEvent: {}
+[10.131304] (-) TimerEvent: {}
+[10.231719] (-) TimerEvent: {}
+[10.332109] (-) TimerEvent: {}
+[10.432487] (-) TimerEvent: {}
+[10.532856] (-) TimerEvent: {}
+[10.633241] (-) TimerEvent: {}
+[10.733629] (-) TimerEvent: {}
+[10.834010] (-) TimerEvent: {}
+[10.934427] (-) TimerEvent: {}
+[11.034805] (-) TimerEvent: {}
+[11.135198] (-) TimerEvent: {}
+[11.235647] (-) TimerEvent: {}
+[11.336022] (-) TimerEvent: {}
+[11.436439] (-) TimerEvent: {}
+[11.536808] (-) TimerEvent: {}
+[11.637191] (-) TimerEvent: {}
+[11.737587] (-) TimerEvent: {}
+[11.837958] (-) TimerEvent: {}
+[11.938363] (-) TimerEvent: {}
+[12.038754] (-) TimerEvent: {}
+[12.139144] (-) TimerEvent: {}
+[12.239547] (-) TimerEvent: {}
+[12.339922] (-) TimerEvent: {}
+[12.440299] (-) TimerEvent: {}
+[12.540707] (-) TimerEvent: {}
+[12.641080] (-) TimerEvent: {}
+[12.741464] (-) TimerEvent: {}
+[12.841845] (-) TimerEvent: {}
+[12.942238] (-) TimerEvent: {}
+[13.042641] (-) TimerEvent: {}
+[13.143027] (-) TimerEvent: {}
+[13.243445] (-) TimerEvent: {}
+[13.343825] (-) TimerEvent: {}
+[13.444216] (-) TimerEvent: {}
+[13.544630] (-) TimerEvent: {}
+[13.645021] (-) TimerEvent: {}
+[13.745414] (-) TimerEvent: {}
+[13.845798] (-) TimerEvent: {}
+[13.946179] (-) TimerEvent: {}
+[14.046585] (-) TimerEvent: {}
+[14.146992] (-) TimerEvent: {}
+[14.247442] (-) TimerEvent: {}
+[14.347825] (-) TimerEvent: {}
+[14.448194] (-) TimerEvent: {}
+[14.548616] (-) TimerEvent: {}
+[14.648969] (-) TimerEvent: {}
+[14.749317] (-) TimerEvent: {}
+[14.849727] (-) TimerEvent: {}
+[14.950118] (-) TimerEvent: {}
+[15.050476] (-) TimerEvent: {}
+[15.150850] (-) TimerEvent: {}
+[15.251234] (-) TimerEvent: {}
+[15.351659] (-) TimerEvent: {}
+[15.452063] (-) TimerEvent: {}
+[15.552444] (-) TimerEvent: {}
+[15.652815] (-) TimerEvent: {}
+[15.753232] (-) TimerEvent: {}
+[15.853617] (-) TimerEvent: {}
+[15.953990] (-) TimerEvent: {}
+[16.054404] (-) TimerEvent: {}
+[16.154776] (-) TimerEvent: {}
+[16.255169] (-) TimerEvent: {}
+[16.355587] (-) TimerEvent: {}
+[16.455965] (-) TimerEvent: {}
+[16.556405] (-) TimerEvent: {}
+[16.656778] (-) TimerEvent: {}
+[16.757206] (-) TimerEvent: {}
+[16.857662] (-) TimerEvent: {}
+[16.957951] (-) TimerEvent: {}
+[17.058257] (-) TimerEvent: {}
+[17.158575] (-) TimerEvent: {}
+[17.258869] (-) TimerEvent: {}
+[17.359175] (-) TimerEvent: {}
+[17.459508] (-) TimerEvent: {}
+[17.559794] (-) TimerEvent: {}
+[17.660097] (-) TimerEvent: {}
+[17.760419] (-) TimerEvent: {}
+[17.860707] (-) TimerEvent: {}
+[17.961004] (-) TimerEvent: {}
+[18.061309] (-) TimerEvent: {}
+[18.161633] (-) TimerEvent: {}
+[18.261939] (-) TimerEvent: {}
+[18.362254] (-) TimerEvent: {}
+[18.462616] (-) TimerEvent: {}
+[18.562936] (-) TimerEvent: {}
+[18.663261] (-) TimerEvent: {}
+[18.763610] (-) TimerEvent: {}
+[18.863963] (-) TimerEvent: {}
+[18.964313] (-) TimerEvent: {}
+[19.064701] (-) TimerEvent: {}
+[19.165072] (-) TimerEvent: {}
+[19.265451] (-) TimerEvent: {}
+[19.365835] (-) TimerEvent: {}
+[19.466187] (-) TimerEvent: {}
+[19.467383] (champ_base) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX shared library libquadruped_controller.so\x1b[0m\n'}
+[19.566383] (-) TimerEvent: {}
+[19.666763] (-) TimerEvent: {}
+[19.767152] (-) TimerEvent: {}
+[19.867544] (-) TimerEvent: {}
+[19.967925] (-) TimerEvent: {}
+[20.068326] (-) TimerEvent: {}
+[20.168773] (-) TimerEvent: {}
+[20.269147] (-) TimerEvent: {}
+[20.369538] (-) TimerEvent: {}
+[20.438178] (champ_base) StdoutLine: {'line': b'[ 33%] Built target quadruped_controller\n'}
+[20.469681] (-) TimerEvent: {}
+[20.480624] (champ_base) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.o\x1b[0m\n'}
+[20.569831] (-) TimerEvent: {}
+[20.670184] (-) TimerEvent: {}
+[20.770531] (-) TimerEvent: {}
+[20.870893] (-) TimerEvent: {}
+[20.971253] (-) TimerEvent: {}
+[21.071649] (-) TimerEvent: {}
+[21.172020] (-) TimerEvent: {}
+[21.272427] (-) TimerEvent: {}
+[21.372799] (-) TimerEvent: {}
+[21.473179] (-) TimerEvent: {}
+[21.573579] (-) TimerEvent: {}
+[21.673958] (-) TimerEvent: {}
+[21.774403] (-) TimerEvent: {}
+[21.874824] (-) TimerEvent: {}
+[21.975207] (-) TimerEvent: {}
+[22.075621] (-) TimerEvent: {}
+[22.175995] (-) TimerEvent: {}
+[22.276406] (-) TimerEvent: {}
+[22.367103] (champ_base) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libmessage_relay.so\x1b[0m\n'}
+[22.376554] (-) TimerEvent: {}
+[22.476918] (-) TimerEvent: {}
+[22.577291] (-) TimerEvent: {}
+[22.677694] (-) TimerEvent: {}
+[22.778105] (-) TimerEvent: {}
+[22.878551] (-) TimerEvent: {}
+[22.978957] (-) TimerEvent: {}
+[23.079318] (-) TimerEvent: {}
+[23.179722] (-) TimerEvent: {}
+[23.280127] (-) TimerEvent: {}
+[23.380543] (-) TimerEvent: {}
+[23.480927] (-) TimerEvent: {}
+[23.533284] (champ_base) StdoutLine: {'line': b'[ 50%] Built target message_relay\n'}
+[23.575449] (champ_base) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/message_relay_node.dir/src/message_relay_node.cpp.o\x1b[0m\n'}
+[23.581064] (-) TimerEvent: {}
+[23.681424] (-) TimerEvent: {}
+[23.781777] (-) TimerEvent: {}
+[23.882141] (-) TimerEvent: {}
+[23.982490] (-) TimerEvent: {}
+[24.054537] (champ_base) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable quadruped_controller_node\x1b[0m\n'}
+[24.082650] (-) TimerEvent: {}
+[24.183075] (-) TimerEvent: {}
+[24.283537] (-) TimerEvent: {}
+[24.383971] (-) TimerEvent: {}
+[24.484440] (-) TimerEvent: {}
+[24.584841] (-) TimerEvent: {}
+[24.685215] (-) TimerEvent: {}
+[24.746499] (champ_base) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libstate_estimation.so\x1b[0m\n'}
+[24.776998] (champ_base) StdoutLine: {'line': b'[ 75%] Built target quadruped_controller_node\n'}
+[24.785337] (-) TimerEvent: {}
+[24.886007] (-) TimerEvent: {}
+[24.986651] (-) TimerEvent: {}
+[25.087439] (-) TimerEvent: {}
+[25.187912] (-) TimerEvent: {}
+[25.288625] (-) TimerEvent: {}
+[25.389302] (-) TimerEvent: {}
+[25.489883] (-) TimerEvent: {}
+[25.590622] (-) TimerEvent: {}
+[25.691219] (-) TimerEvent: {}
+[25.792027] (-) TimerEvent: {}
+[25.892442] (-) TimerEvent: {}
+[25.939720] (champ_base) StdoutLine: {'line': b'[ 75%] Built target state_estimation\n'}
+[25.980681] (champ_base) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/state_estimation_node.dir/src/state_estimation_node.cpp.o\x1b[0m\n'}
+[25.992583] (-) TimerEvent: {}
+[26.092929] (-) TimerEvent: {}
+[26.193683] (-) TimerEvent: {}
+[26.294237] (-) TimerEvent: {}
+[26.394676] (-) TimerEvent: {}
+[26.495052] (-) TimerEvent: {}
+[26.595446] (-) TimerEvent: {}
+[26.695824] (-) TimerEvent: {}
+[26.796197] (-) TimerEvent: {}
+[26.896999] (-) TimerEvent: {}
+[26.997573] (-) TimerEvent: {}
+[27.097936] (-) TimerEvent: {}
+[27.139529] (champ_base) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX executable message_relay_node\x1b[0m\n'}
+[27.198115] (-) TimerEvent: {}
+[27.298610] (-) TimerEvent: {}
+[27.399037] (-) TimerEvent: {}
+[27.499450] (-) TimerEvent: {}
+[27.599867] (-) TimerEvent: {}
+[27.700475] (-) TimerEvent: {}
+[27.801098] (-) TimerEvent: {}
+[27.882218] (champ_base) StdoutLine: {'line': b'[ 91%] Built target message_relay_node\n'}
+[27.901258] (-) TimerEvent: {}
+[28.001653] (-) TimerEvent: {}
+[28.102020] (-) TimerEvent: {}
+[28.202434] (-) TimerEvent: {}
+[28.302806] (-) TimerEvent: {}
+[28.403319] (-) TimerEvent: {}
+[28.503718] (-) TimerEvent: {}
+[28.604075] (-) TimerEvent: {}
+[28.704444] (-) TimerEvent: {}
+[28.804804] (-) TimerEvent: {}
+[28.905173] (-) TimerEvent: {}
+[29.005559] (-) TimerEvent: {}
+[29.105916] (-) TimerEvent: {}
+[29.206272] (-) TimerEvent: {}
+[29.306647] (-) TimerEvent: {}
+[29.407010] (-) TimerEvent: {}
+[29.507399] (-) TimerEvent: {}
+[29.607763] (-) TimerEvent: {}
+[29.708119] (-) TimerEvent: {}
+[29.808488] (-) TimerEvent: {}
+[29.908856] (-) TimerEvent: {}
+[30.009228] (-) TimerEvent: {}
+[30.109618] (-) TimerEvent: {}
+[30.209991] (-) TimerEvent: {}
+[30.310394] (-) TimerEvent: {}
+[30.410762] (-) TimerEvent: {}
+[30.511124] (-) TimerEvent: {}
+[30.611486] (-) TimerEvent: {}
+[30.711855] (-) TimerEvent: {}
+[30.812212] (-) TimerEvent: {}
+[30.912609] (-) TimerEvent: {}
+[31.012970] (-) TimerEvent: {}
+[31.113322] (-) TimerEvent: {}
+[31.118540] (champ_base) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable state_estimation_node\x1b[0m\n'}
+[31.213501] (-) TimerEvent: {}
+[31.313977] (-) TimerEvent: {}
+[31.414455] (-) TimerEvent: {}
+[31.514903] (-) TimerEvent: {}
+[31.615369] (-) TimerEvent: {}
+[31.715798] (-) TimerEvent: {}
+[31.816282] (-) TimerEvent: {}
+[31.916746] (-) TimerEvent: {}
+[31.930125] (champ_base) StdoutLine: {'line': b'[100%] Built target state_estimation_node\n'}
+[31.947100] (champ_base) CommandEnded: {'returncode': 0}
+[31.948472] (champ_base) JobProgress: {'identifier': 'champ_base', 'progress': 'install'}
+[31.949141] (champ_base) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rakesh/practice/build/champ_base'], 'cwd': '/home/rakesh/practice/build/champ_base', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': ':/home/rakesh/opt/ros/jazzy/share/gz_ros2_control:/opt/ros/jazzy/share', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2866-1-rakesh-HP-Pavilion-Laptop-15-eh1xxx_TIME1526627', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share::/path/to/your/textures', 'USER': 'rakesh', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rakesh/practice/install/champ_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/opt/ros/jazzy/lib:/opt/unitree_robotics/lib', 'HOME': '/home/rakesh', 'OLDPWD': '/home/rakesh', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2463', 'SYSTEMD_EXEC_PID': '2866', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5474', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rakesh', 'JOURNAL_STREAM': '9:21432', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rakesh', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share/:/home/rakesh/go2_ws/src/go2_description:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/opt/unitree_robotics/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rakesh-HP-Pavilion-Laptop-15-eh1xxx:@/tmp/.ICE-unix/2835,unix/rakesh-HP-Pavilion-Laptop-15-eh1xxx:/tmp/.ICE-unix/2835', 'INVOCATION_ID': '50a274fed75a49a58ce72a718269f8a6', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/rakesh/practice/install/champ_msgs:/home/rakesh/practice/install/champ:/opt/ros/jazzy:', 'SHELL': '/bin/bash', 'IGN_GAZEBO_SYSTEM_PLUGIN_PATH': ':/home/rakesh/home/rakesh/gazebo_ros2_control', 'TERMINATOR_UUID': 'urn:uuid:b1152892-9a8f-4f3f-a9cb-c2619976cdbe', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rakesh/practice/build/champ_base', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/home/rakesh/home/rakesh/unitree_ros2/lib:/home/rakesh/home/rakesh/unitree_ros2/lib:/opt/ros/jazzy/lib:', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/rakesh/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rakesh/practice/install/champ_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'GZ_SIM_PHYSICS_ENGINE_PATH': '/usr/lib/x86_64-linux-gnu/gz-physics-6/engine-plugins', 'CMAKE_PREFIX_PATH': '/home/rakesh/practice/install/champ_msgs:/home/rakesh/practice/install/champ:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy:'}), 'shell': False}
+[31.960138] (champ_base) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[31.960417] (champ_base) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_base/share/champ_base/config\n'}
+[31.960643] (champ_base) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_base/share/champ_base/config/ekf\n'}
+[31.960884] (champ_base) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_base/share/champ_base/config/ekf/base_to_footprint.yaml\n'}
+[31.961392] (champ_base) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_base/share/champ_base/config/ekf/footprint_to_odom.yaml\n'}
+[31.961860] (champ_base) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_base/share/champ_base/config/velocity_smoother\n'}
+[31.962245] (champ_base) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_base/share/champ_base/config/velocity_smoother/velocity_smoother.yaml\n'}
+[31.963066] (champ_base) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_base/lib/libquadruped_controller.so\n'}
+[31.973247] (champ_base) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rakesh/practice/install/champ_base/lib/libquadruped_controller.so" to ""\n'}
+[31.974312] (champ_base) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_base/bin/quadruped_controller_node\n'}
+[31.975114] (champ_base) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rakesh/practice/install/champ_base/bin/quadruped_controller_node" to ""\n'}
+[31.975755] (champ_base) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_base/lib/libmessage_relay.so\n'}
+[31.989588] (champ_base) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rakesh/practice/install/champ_base/lib/libmessage_relay.so" to ""\n'}
+[31.990171] (champ_base) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_base/bin/message_relay_node\n'}
+[31.990775] (champ_base) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rakesh/practice/install/champ_base/bin/message_relay_node" to ""\n'}
+[31.991442] (champ_base) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_base/lib/libstate_estimation.so\n'}
+[32.006302] (champ_base) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rakesh/practice/install/champ_base/lib/libstate_estimation.so" to ""\n'}
+[32.006837] (champ_base) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_base/bin/state_estimation_node\n'}
+[32.007459] (champ_base) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rakesh/practice/install/champ_base/bin/state_estimation_node" to ""\n'}
+[32.008078] (champ_base) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_base/lib/champ_base/quadruped_controller_node\n'}
+[32.008650] (champ_base) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rakesh/practice/install/champ_base/lib/champ_base/quadruped_controller_node" to ""\n'}
+[32.009164] (champ_base) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_base/lib/champ_base/message_relay_node\n'}
+[32.009724] (champ_base) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rakesh/practice/install/champ_base/lib/champ_base/message_relay_node" to ""\n'}
+[32.010270] (champ_base) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_base/lib/champ_base/state_estimation_node\n'}
+[32.010834] (champ_base) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rakesh/practice/install/champ_base/lib/champ_base/state_estimation_node" to ""\n'}
+[32.011249] (champ_base) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_base/share/ament_index/resource_index/package_run_dependencies/champ_base\n'}
+[32.011497] (champ_base) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_base/share/ament_index/resource_index/parent_prefix_path/champ_base\n'}
+[32.011724] (champ_base) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_base/share/champ_base/environment/ament_prefix_path.sh\n'}
+[32.012075] (champ_base) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_base/share/champ_base/environment/ament_prefix_path.dsv\n'}
+[32.012422] (champ_base) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_base/share/champ_base/environment/path.sh\n'}
+[32.012620] (champ_base) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_base/share/champ_base/environment/path.dsv\n'}
+[32.012782] (champ_base) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_base/share/champ_base/local_setup.bash\n'}
+[32.012930] (champ_base) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_base/share/champ_base/local_setup.sh\n'}
+[32.013078] (champ_base) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_base/share/champ_base/local_setup.zsh\n'}
+[32.013226] (champ_base) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_base/share/champ_base/local_setup.dsv\n'}
+[32.013400] (champ_base) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_base/share/champ_base/package.dsv\n'}
+[32.013566] (champ_base) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_base/share/ament_index/resource_index/packages/champ_base\n'}
+[32.013713] (champ_base) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_base/share/champ_base/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[32.013860] (champ_base) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_base/share/champ_base/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[32.014007] (champ_base) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_base/share/champ_base/cmake/champ_baseConfig.cmake\n'}
+[32.014154] (champ_base) StdoutLine: {'line': b'-- Up-to-date: /home/rakesh/practice/install/champ_base/share/champ_base/cmake/champ_baseConfig-version.cmake\n'}
+[32.014301] (champ_base) StdoutLine: {'line': b'-- Installing: /home/rakesh/practice/install/champ_base/share/champ_base/package.xml\n'}
+[32.016285] (champ_base) CommandEnded: {'returncode': 0}
+[32.016822] (-) TimerEvent: {}
+[32.059735] (champ_base) JobEnded: {'identifier': 'champ_base', 'rc': 0}
+[32.061481] (-) EventReactorShutdown: {}

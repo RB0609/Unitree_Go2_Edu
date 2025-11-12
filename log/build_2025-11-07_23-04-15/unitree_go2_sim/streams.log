@@ -1,0 +1,35 @@
+[0.022s] Invoking command in '/home/rakesh/practice/build/unitree_go2_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy: DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rakesh/practice/build/unitree_go2_sim -- -j12 -l12
+[0.107s] Invoked command in '/home/rakesh/practice/build/unitree_go2_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy: DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rakesh/practice/build/unitree_go2_sim -- -j12 -l12
+[0.109s] Invoking command in '/home/rakesh/practice/build/unitree_go2_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy: DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rakesh/practice/build/unitree_go2_sim
+[0.128s] -- Install configuration: ""
+[0.129s] -- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/launch
+[0.130s] -- Installing: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/launch/unitree_go2_launch.py
+[0.131s] -- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/config
+[0.131s] -- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/config/links
+[0.133s] -- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/config/links/links.yaml
+[0.133s] -- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/config/joints
+[0.133s] -- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/config/joints/joints.yaml
+[0.133s] -- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/config/gait
+[0.133s] -- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/config/gait/gait.yaml
+[0.134s] -- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/config/ros_control
+[0.134s] -- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/config/ros_control/ros_control.yaml
+[0.134s] -- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/rviz
+[0.134s] -- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/rviz/rviz.rviz
+[0.134s] -- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/scripts
+[0.134s] -- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/scripts/go2_params.yaml
+[0.134s] -- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/ament_index/resource_index/package_run_dependencies/unitree_go2_sim
+[0.134s] -- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/ament_index/resource_index/parent_prefix_path/unitree_go2_sim
+[0.135s] -- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/environment/ament_prefix_path.sh
+[0.135s] -- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/environment/ament_prefix_path.dsv
+[0.135s] -- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/environment/path.sh
+[0.135s] -- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/environment/path.dsv
+[0.135s] -- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/local_setup.bash
+[0.135s] -- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/local_setup.sh
+[0.135s] -- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/local_setup.zsh
+[0.138s] -- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/local_setup.dsv
+[0.138s] -- Installing: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/package.dsv
+[0.140s] -- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/ament_index/resource_index/packages/unitree_go2_sim
+[0.140s] -- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/cmake/unitree_go2_simConfig.cmake
+[0.140s] -- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/cmake/unitree_go2_simConfig-version.cmake
+[0.140s] -- Up-to-date: /home/rakesh/practice/install/unitree_go2_sim/share/unitree_go2_sim/package.xml
+[0.165s] Invoked command in '/home/rakesh/practice/build/unitree_go2_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy: DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rakesh/practice/build/unitree_go2_sim

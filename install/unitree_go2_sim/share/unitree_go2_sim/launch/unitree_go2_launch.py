@@ -26,23 +26,21 @@ def generate_launch_description():
     unitree_go2_description = launch_ros.substitutions.FindPackageShare(
         package="unitree_go2_description").find("unitree_go2_description")
     
+    bridge_yaml = os.path.join(unitree_go2_sim, "scripts/gazebo_bridge.yaml")
     joints_config = os.path.join(unitree_go2_sim, "config/joints/joints.yaml")
-    ros_control_config = os.path.join(
-        unitree_go2_sim, "config/ros_control/ros_control.yaml"
-    )
+    ros_control_config = os.path.join(unitree_go2_sim, "config/ros_control/ros_control.yaml")
     gait_config = os.path.join(unitree_go2_sim, "config/gait/gait.yaml")
     links_config = os.path.join(unitree_go2_sim, "config/links/links.yaml")
     default_model_path = os.path.join(unitree_go2_description, "urdf/unitree_go2_robot.xacro")
-    default_world_path = os.path.join(unitree_go2_description, "worlds/default.sdf")
+    default_world_path = os.path.join(unitree_go2_description, "worlds/model.sdf")
 
     declare_use_sim_time = DeclareLaunchArgument(
         "use_sim_time",
         default_value="true",
         description="Use simulation (Gazebo) clock if true",
     )
-    declare_rviz = DeclareLaunchArgument(
-        "rviz", default_value="true", description="Launch rviz"
-    )
+    declare_rviz = DeclareLaunchArgument("rviz", default_value="true", description="Launch rviz")
+
     declare_robot_name = DeclareLaunchArgument(
         "robot_name", default_value="go2", description="Robot name"
     )
@@ -63,7 +61,7 @@ def generate_launch_description():
     )
     declare_world_init_x = DeclareLaunchArgument("world_init_x", default_value="0.0")
     declare_world_init_y = DeclareLaunchArgument("world_init_y", default_value="0.0")
-    declare_world_init_z = DeclareLaunchArgument("world_init_z", default_value="0.375")
+    declare_world_init_z = DeclareLaunchArgument("world_init_z", default_value="0.4") #original was 0.375
     declare_world_init_heading = DeclareLaunchArgument(
         "world_init_heading", default_value="0.0"
     )
@@ -148,11 +146,12 @@ def generate_launch_description():
         output="screen",
         parameters=[
             {"use_sim_time": use_sim_time},
+            {"map_frame": "map"},
             {"base_link_frame": "base_footprint"},
             {"odom_frame": "odom"},
             {"world_frame": "odom"},
             {"publish_tf": True},
-            {"frequency": 50.0},
+            {"frequency": 20.0},
             {"two_d_mode": True},
             {"odom0": "odom/raw"},
             {"odom0_config": [False, False, False, False, False, False, True, True, False, False, False, True, False, False, False]},
@@ -207,7 +206,7 @@ def generate_launch_description():
             'gz_args': [PathJoinSubstitution([
                 unitree_go2_description,
                 'worlds',
-                'default.sdf'
+                'model.sdf'
             ]), ' -r']  # Add -r flag to start unpaused
         }.items(),
     )
@@ -232,24 +231,8 @@ def generate_launch_description():
         package='ros_gz_bridge',
         executable='parameter_bridge',
         name='gazebo_bridge',
+        parameters=[{'config_file': bridge_yaml},{'use_sim_time': use_sim_time}],
         output='screen',
-        parameters=[{'use_sim_time': use_sim_time}],
-        arguments=[
-            # Gazebo to ROS
-            '/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock',
-            '/imu/data@sensor_msgs/msg/Imu@gz.msgs.IMU',
-            '/tf@tf2_msgs/msg/TFMessage@gz.msgs.Pose_V',
-            '/joint_states@sensor_msgs/msg/JointState@gz.msgs.Model',
-            '/velodyne_points/points@sensor_msgs/msg/PointCloud2@gz.msgs.PointCloudPacked',
-            '/unitree_lidar/points@sensor_msgs/msg/PointCloud2@gz.msgs.PointCloudPacked',
-            # '/velodyne_points@sensor_msgs/msg/LaserScan@gz.msgs.LaserScan',
-            '/odom@nav_msgs/msg/Odometry@gz.msgs.Odometry',
-            '/rgb_image@sensor_msgs/msg/Image@gz.msgs.Image',
-            
-            # ROS to Gazebo
-            '/cmd_vel@geometry_msgs/msg/Twist]gz.msgs.Twist',
-            '/joint_group_effort_controller/joint_trajectory@trajectory_msgs/msg/JointTrajectory]gz.msgs.JointTrajectory',
-        ],
     )
     
     # Use spawner nodes directly to handle the configuration step. (load → configure → activate)
