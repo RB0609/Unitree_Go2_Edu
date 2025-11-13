@@ -99,3 +99,11 @@ For reference, in order to perform navigation of unitree go2 edu robot, I used t
 ```bash
 https://github.com/Sayantani-Bhattacharya/unitree_go2_nav
 ```
+Here's the link for the Gazebo model
+```bash
+https://app.gazebosim.org/OpenRobotics/fuel/models/Depot
+```
+Nav2 stack doc
+```bash
+https://docs.nav2.org/index.html
+```
