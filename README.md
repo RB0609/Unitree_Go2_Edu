@@ -10,26 +10,23 @@ https://github.com/user-attachments/assets/4b23e7d9-05f6-4085-8a9f-3eeae7db333f
 <img width="1401" height="709" alt="go2" src="https://github.com/user-attachments/assets/64bf0008-3680-4abb-be2a-3bd3273a5d16" />
 
 ## Steps I have followed to achieve Navigation
-1. Took a pre-built indoor- environment from Fuel model available for Gazebo.
-2. Launched the robot and Indoor environment in Gazebo Harmonic.
-3. Made some necessary changes in the world for simulation ready.
-4. Built the map using slam toolbox.
+1. Took a pre-built indoor- environment from **Fuel model** available for Gazebo.
+2. Launched the robot and Indoor environment in **Gazebo Harmonic**.
+3. Made some necessary changes in the world for **simulation** ready.
+4. Built the map using **slam toolbox**.
 5. Launched Nav2_bringup with:<br>
-   (a) Map-server: loading my saved map.<br>
-   (b) amcl for localization on that map.<br>
+   (a) **Map-server**: loading my saved map.<br>
+   (b) **amcl** for **localization** on that map.<br>
    (c) planner_server, controller_server, bt_navigator, etc. for navigation<br>
-   (d) Rviz- for visualization and setting goals using "Nav2goal".<br>
-   (e) Local & global costmaps configured in params_file.<br>
-
+   (d) **rviz2** for visualization and setting goals using **"Nav2goal"**.<br>
+   (e) **Local & global costmaps** configured in params_file.<br>
 ## Features
-- Robot simulation in a indoor environment in Gazebo Harmonic
-- Navigation (using Nav2 Stack) from Point A to Point B, using "Nav2goal" feature from Nav2
-  
+- Robot simulation in a indoor environment in **Gazebo Harmonic**
+- Navigation (using **Nav2 Stack**) from Point A to Point B, using **"Nav2goal"** feature from Nav2
 ## Requirements
 - Ubuntu 24.04
 - ROS 2 Jazzy
 - Gazebo Sim Harmonic
-
 ## Installation
 1. Install ROS2 Dependencies
 ```bash
@@ -88,11 +85,11 @@ in Terminal2:
 ros2 launch nav2_bringup bringup_launch.py   use_sim_time:=true   map:=/home/rakesh/map.yaml   params_file:=/home/rakesh/practice/src/unitree_go2_ros2/unitree_go2_sim/scripts/go2_params.yaml
 ```
 ## Further work
-1. Working on ekf node<br>
+1. Working on **ekf node**<br>
    (a) Fine-tuning the parameters for better result<br>
    (b) Focusing on robot's state estimation <br>
 1. Currently focusing on improvement of robot's gait<br>
-2. Planning to perform Sim2Real with Unitree go2 Edu
+2. Planning to perform **Sim2Real** with **Unitree go2 Edu**
 ## References
    
 For reference I used this github repo, unitree go2 edu simulation in Gazebo and Harmonic.
