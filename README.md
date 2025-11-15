@@ -5,6 +5,10 @@
 ## Watch this below video for Navigation
 
 https://github.com/user-attachments/assets/4b23e7d9-05f6-4085-8a9f-3eeae7db333f
+
+## ROS-2 System Architecture
+<img width="1401" height="709" alt="go2" src="https://github.com/user-attachments/assets/64bf0008-3680-4abb-be2a-3bd3273a5d16" />
+
 ## Steps I have followed to achieve Navigation
 1. Took a pre-built indoor- environment from Fuel model available for Gazebo.
 2. Launched the robot and Indoor environment in Gazebo Harmonic.
