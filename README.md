@@ -9,20 +9,23 @@ https://github.com/user-attachments/assets/4b23e7d9-05f6-4085-8a9f-3eeae7db333f
 ## ROS 2 System Architecture
 <img width="1401" height="709" alt="go2" src="https://github.com/user-attachments/assets/64bf0008-3680-4abb-be2a-3bd3273a5d16" />
 
+## Features
+- Simulation in an indoor environment in **Gazebo Harmonic**
+- Navigation (using **Nav2 Stack**) from Point A to Point B, using **"Nav2goal"**.
+
 ## Steps I have followed to achieve Navigation
 1. Took a pre-built indoor- environment from **Fuel model** available for Gazebo.
 2. Launched the robot and Indoor environment in **Gazebo Harmonic**.
 3. Made some necessary changes in the world for **simulation** ready.
 4. Built the map using **slam toolbox**.
 5. Launched Nav2_bringup with:<br>
-   (a) **Map-server**: loading my saved map.<br>
+   (a) **Map-server**: loads my saved map.<br>
    (b) **amcl** for **localization** on that map.<br>
-   (c) planner_server, controller_server, bt_navigator, etc. for navigation<br>
+   (c) planner_server, controller_server, bt_navigator, etc. for **navigation**<br>
    (d) **rviz2** for visualization and setting goals using **"Nav2goal"**.<br>
    (e) **Local & global costmaps** configured in params_file.<br>
-## Features
-- Robot simulation in a indoor environment in **Gazebo Harmonic**
-- Navigation (using **Nav2 Stack**) from Point A to Point B, using **"Nav2goal"** feature from Nav2
+   (f) Fine-tune few parameters in params_file in order to get good results.<br>
+
 ## Requirements
 - Ubuntu 24.04
 - ROS 2 Jazzy Jalisco
