@@ -25,7 +25,7 @@ https://github.com/user-attachments/assets/4b23e7d9-05f6-4085-8a9f-3eeae7db333f
 - Navigation (using **Nav2 Stack**) from Point A to Point B, using **"Nav2goal"** feature from Nav2
 ## Requirements
 - Ubuntu 24.04
-- ROS 2 Jazzy
+- ROS 2 Jazzy Jalisco
 - Gazebo Sim Harmonic
 ## Installation
 1. Install ROS2 Dependencies
@@ -42,7 +42,7 @@ sudo apt install ros-jazzy-velodyne-description
 2. Clone the Go2 Simulation package
 ```bash
 cd ~/practice/src
-git clone https://github.com/RB0609/Practice_thesis.git
+https://github.com/RB0609/Unitree_Go2_Edu.git
 ```
 3. Install the Dependencies
 ```bash
