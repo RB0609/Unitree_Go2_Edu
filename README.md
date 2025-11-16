@@ -12,6 +12,10 @@ https://github.com/user-attachments/assets/4b23e7d9-05f6-4085-8a9f-3eeae7db333f
 ## Features
 - Simulation in an indoor environment in **Gazebo Harmonic**
 - Navigation (using **Nav2 Stack**) from Point A to Point B, using **"Nav2goal"**.
+- Controller plugin: `dwb_core::DWBLocalPlanner` (configured as `FollowPath`)
+- Plugin based on a **Dynamic Window Approach (DWA)** style algorithm.
+
+
 
 ## Steps I have followed to achieve Navigation
 1. Took a pre-built indoor- environment from **Fuel model** available for Gazebo.
