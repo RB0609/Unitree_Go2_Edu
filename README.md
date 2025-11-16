@@ -59,7 +59,7 @@ cd ~/practice
 colcon build
 source install/setup.bash
 ```
-5. Steps to launch the simulation file in Gazebo Harmonic and Rviz
+5. Steps to launch the simulation file in Gazebo Harmonic and Rviz.<br>
 Gazebo Harmonic Simulation:
 ```bash
  ros2 launch unitree_go2_sim unitree_go2_launch.py 
