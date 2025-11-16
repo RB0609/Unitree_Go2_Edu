@@ -67,7 +67,6 @@ Gazebo Harmonic Simulation:
 ## Steps to Perform Navigation 
 1. Follow these before Performing the navigation.<br>
 In **go2_params.yaml** file which is in scripts folder under unitree_go2_sim.<br>
-You can refer by seeing below.<br>
 ```text
 unitree_go2_sim/
 └── scripts/
