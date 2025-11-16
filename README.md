@@ -65,8 +65,14 @@ Gazebo Harmonic Simulation:
  ros2 launch unitree_go2_sim unitree_go2_launch.py 
 ```
 ## Steps to Perform Navigation 
-1. Follow these before Performing the navigation
-In go2_params.yaml file which is in scripts folder under unitree_go2_sim
+1. Follow these before Performing the navigation.<br>
+In **go2_params.yaml** file which is in scripts folder under unitree_go2_sim.<br>
+You can refer by seeing below.<br>
+```text
+unitree_go2_sim/
+└── scripts/
+    └── go2_params.yaml
+```
 ```bash
 map_server:
   ros__parameters:
@@ -75,15 +81,15 @@ map_server:
     #topic_name: "map"
     #frame_id: "map"
 ```
-in Terminal1:(First launch this file)
+First launch this file in **Terminal1**:
 ```bash
 ros2 launch nav2_bringup rviz_launch.py 
 ```
-For below code, careful with file location<br>
+**For below code, careful with file location<br>**
 map:=<path_to_file_location>/map.yaml<br>
 params_file:=<path_to_file_location>/go2_params.yaml<br>
 below is the example usage<br>
-in Terminal2:
+in **Terminal2**:
 ```bash
 ros2 launch nav2_bringup bringup_launch.py   use_sim_time:=true   map:=/home/rakesh/map.yaml   params_file:=/home/rakesh/practice/src/unitree_go2_ros2/unitree_go2_sim/scripts/go2_params.yaml
 ```
