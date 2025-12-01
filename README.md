@@ -50,7 +50,7 @@ sudo apt install ros-jazzy-velodyne-description
 2. Clone the Go2 Simulation package
 ```bash
 cd ~/practice/src
-https://github.com/RB0609/Unitree_Go2_Edu.git
+git clone https://github.com/RB0609/Unitree_Go2_Edu.git
 ```
 3. Install the Dependencies
 ```bash
